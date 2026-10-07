@@ -58,4 +58,4 @@ Open an issue with your ERA/HD Mod versions, enabled mods, exact steps and the r
 
 ## Credits
 
-ERA Spells originates from Toxeos. Heroes III and its original game assets belong to their respective rights holders. The phoenix project emblem was created specifically for ERA Spells. This repository does not grant a blanket redistribution license over third-party assets.
+ERA Spells is developed by Toxeos. You are welcome to modify the mod and share your own versions.
