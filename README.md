@@ -1,61 +1,75 @@
-<p align="center"><img src="era-spells.png" width="192" alt="ERA Spells — phoenix emblem"></p>
+[Русский](README.ru.md) · [Download](https://github.com/toxeanubis1994-arch/ERA-Spells/releases/latest)
 
-<h1 align="center">ERA Spells</h1>
-<p align="center">Custom magic for Heroes of Might and Magic III ERA</p>
-<p align="center"><strong>Native spell effects · Map Editor support · English / Русский</strong></p>
+# ERA Spells
 
-[Русская версия](README.ru.md)
+Toxeos combat magic for Heroes of Might and Magic III ERA: area and delayed damage, stack control, protective effects and summons. This is a standalone mod; the story Toxeos mod is not required.
 
-**[Download ERA Spells](../../releases/latest)** · [Report an issue](../../issues)
+## Spells
 
-ERA Spells is the standalone spell component of Toxeos, previously distributed as **Toxeos Native Spells**. It adds custom combat magic through native ERA plugins, with animations, spellbook integration and Map Editor support. The story mod is not required.
+- **Blizzard** — Damages the target and stacks on adjacent hexes, reducing Speed by 2. The slow lasts 2/4/6 rounds according to mastery; Speed cannot fall below 2.
 
-## Installation
+- **Deep Freeze** — Damages and freezes a stack, preventing it from acting or retaliating. The first damaging hit breaks the ice. Physical damage is amplified; Fire damage is increased and damage from other schools is reduced.
 
-1. Close the game and Map Editor.
-2. Copy the complete `ERA Spells` folder into your game's `Mods` directory.
-3. Enable **ERA Spells** in the mod manager.
-4. Restart the game or ERA Map Editor.
+- **Heavenly Wrath** — Strikes a selected stack with a powerful discharge. A surviving target that has not acted loses its turn in the current round.
 
-Requires an ERA/WoG installation with ERA Erm Framework. New Spells and Amethyst are not required. Do not enable this package together with the story Toxeos mod, Toxeos Spells or another plugin that replaces the same spell tables.
+- **Cataclysm** — Damages ground creatures in both armies, leaving flying creatures unharmed. It can also make stacks that have not acted lose their current turn.
 
-## Language
+- **Dragon Wrath** — Increases a friendly stack's Defense and makes it a preferred target for enemy AI.
 
-English is the default and fallback language. Russian translations are included. Select `en` or `ru` in ERA's language settings. If your installation has no language selector, set the following in the game's `heroes3.ini`:
+- **Inspiration** — Brings a friendly stack's next activation forward. Eligible creature levels depend on magic-school mastery.
 
-```ini
-[Era]
-Language=en
-```
+- **Heavenly Shield** — Protects against physical damage, but not magical damage. It ends after its duration or hit limit is reached; limits depend on mastery.
 
-Use `Language=ru` for Russian. Restart both the game and editor afterwards. This changes the mod's texts; it does not translate the rest of your installation.
+- **Rampage** — Doubles a friendly stack's direct damage for two activations. Retaliation is also amplified and does not consume an activation of the effect.
 
-## Map Editor
+- **Summon Phoenix** — Summons one Phoenix whose stats scale with hero level, Spell Power and Fire Magic. It flies, attacks three targets without retaliation and has Fire Shield. On death or replacement it releases Inferno. Recasting replaces the previous Phoenix.
 
-The enabled mod supplies an editor plugin under `EraEditor`. Custom spells can be assigned through the supported hero, Mage Guild, Shrine and scroll dialogs. The existing H3M transport preserves assignments without using ERM as a hidden transport. Save and reopen a test map to check assignments before distributing it.
+- **Earth Bonds** — Creates an impassable barrier of roots. Attacks and spells can destroy it; durability and lifetime depend on mastery.
 
-Renaming the package does not change Spell IDs or map data. Maps from other spell expansions can use incompatible IDs; this package does not silently convert them.
+- **Incineration** — Deals half its damage immediately and the remainder at the start of the next three rounds. Recasting replaces the remaining effect.
 
-## Configuration
+- **Telekinesis** — Moves an enemy stack within 6 hexes, bypassing walls and obstacles. Eligible creature levels depend on mastery.
 
-Random Mage Guild and Shrine distribution is configured in `ToxData/spell_generation.tsv`. Restart the game after editing it. Manual assignments take priority.
+- **Confusion** — Prevents enemy retaliation. Expert mastery affects all eligible enemy stacks. Duration equals the hero's Spell Power.
 
-- **Ice Dragon:** manual assignment only; excluded from random guild/shrine generation and elemental books. Base cost: **25 mana**.
-- **Fury of the Elements:** retains its separate rare generation rule; excluded from elemental books.
-- **Summon Phoenix:** retains its separate generation rule and town exclusions.
+- **Restoration** — Restores machines and golems.
 
-Spell-specific effects, summons and timers run in DLLs. The standalone package does not add the story mod's talents, critical-hit rules or academies.
+- **Wasp Swarm** — Deals half its damage immediately and the other half at the start of the next round, then ends.
 
-## Compatibility and testing
+- **Tsunami** — Damages all enemy stacks without harming friendly troops.
 
-Summoned creatures use vanilla slots **122, 124 and 126**, configured programmatically. No Amethyst creature expansion or shared creature TXT replacement is required. Other mods that repurpose those slots can conflict.
+- **Ice Dragon** — Summons a non-living, two-hex Ice Dragon protected against Water and Mind magic. Durability is measured in hits. Base cost: 25 mana. Available only through manual assignment, not random guilds or shrines.
 
-Static and console checks have been performed against the two ERA installations used during development. These checks do not substitute for in-game testing or guarantee compatibility with every ERA version and plugin combination. Test editor save/reopen, acquisition, combat, save/load and BattleSave with your actual setup.
+- **Fury of the Elements** — Unleashes the power of all four elements against a selected enemy stack. A rare spell that is not granted by elemental books.
 
-## Reporting a problem
+- **Invisibility** — Hides a friendly stack and lowers its targeting priority for enemy AI. Movement or an incoming or outgoing attack removes it; waiting and defending do not. Duration equals the hero's Spell Power.
 
-Open an issue with your ERA/HD Mod versions, enabled mods, exact steps and the relevant crash/debug log. For map-specific problems, include a minimal test map if you can share it. Remove personal paths and other private information from logs before uploading them.
+## Acquisition and Map Editor
+
+Assign spells to heroes, Mage Guilds, Shrines and other supported sources in ERA Map Editor; assignments are saved in the map. Ordinary custom spells can also appear randomly in guilds and shrines, less often than stock spells. Configure generation in `ToxData/spell_generation.tsv`. Fury of the Elements retains its separate rare chance. Phoenix does not generate in Rampart, Tower or Necropolis. Ice Dragon and Fury of the Elements are excluded from elemental books.
+
+## Installation and language
+
+Install the **ERA Spells** folder under `Mods` and enable it. Requires ERA/WoG and ERA Erm Framework. Amethyst and New Spells are not required. Do not enable simultaneously with the story Toxeos mod or another expansion replacing the same spell tables.
+
+English is the default. Select `ru` in ERA settings for Russian, or set `Language=ru` under `[Era]` in `heroes3.ini`. Use `Language=en` for English. Restart the game and editor.
 
 ## Credits
 
-ERA Spells is developed by Toxeos. You are welcome to modify the mod and share your own versions.
+Mod author: **Toxeos**.
+
+Graphics assistance: **Dalion** and **Toriko**.
+
+You are welcome to modify the mod and share your own versions.
+
+## Screenshots
+
+![ERA Spells 1](Screens/1.png)
+
+![ERA Spells 2](Screens/2.png)
+
+![ERA Spells 3](Screens/3.png)
+
+![ERA Spells 4](Screens/4.png)
+
+![ERA Spells 5](Screens/5.png)
