@@ -1,0 +1,47 @@
+# UTF-8. Restart game after editing.
+Version 1
+Enabled 1
+StockShrineWeight 100
+# Spell ID GuildPercent ShrineWeight ExcludedTownBitmask
+# Absolute guild chance per spell at eligible level; ONE custom spell maximum per level.
+# Totals per level must be <=100. Manual required choices take priority.
+# Shrine weights: each ordinary spell=100, normal custom=50.
+# Town bits: Castle=1 Rampart=2 Tower=4 Inferno=8 Necropolis=16 Dungeon=32 Stronghold=64 Fortress=128 Conflux=256.
+# Метель
+Spell 81 12 50 0
+# Глубокая заморозка
+Spell 82 8 50 0
+# Небесная Кара
+Spell 83 8 50 0
+# Катаклизм
+Spell 84 12 50 0
+# Драконий Гнев
+Spell 85 15 50 0
+# Воодушевление
+Spell 86 15 50 0
+# Небесный Щит
+Spell 87 12 50 0
+# Буйство
+Spell 88 8 50 0
+# Призыв Феникса
+Spell 89 5 25 22
+# Узы Земли
+Spell 90 15 50 0
+# Испепеление
+Spell 91 8 50 0
+# Телекинез
+Spell 92 12 50 0
+# Смятение
+Spell 93 12 50 0
+# Восстановление
+Spell 94 15 50 0
+# Рой ос
+Spell 95 20 50 0
+# Цунами
+Spell 96 12 50 0
+# Ледяной Дракон
+Spell 97 0 0 0
+# Ярость стихий
+Spell 98 2 2 0
+# Невидимость
+Spell 99 15 50 0
