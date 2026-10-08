@@ -1,8 +1,14 @@
-[Русский](README.ru.md) · [Download](https://github.com/toxeanubis1994-arch/ERA-Spells/releases/latest)
+[Русский](README.ru.md) · [Download](https://github.com/toxeanubis1994-arch/ERA-Spells/releases/tag/v0.4-beta)
 
 # ERA Spells
 
 Toxeos combat magic for Heroes of Might and Magic III ERA: area and delayed damage, stack control, protective effects and summons. This is a standalone mod; the story Toxeos mod is not required.
+
+## 0.4 beta
+
+Fixes a division-by-zero crash during random map generation. The summon-only creatures (Phoenix 122, Ice Dragon 124 and Earth Bonds 126) are now excluded from both single-creature and multi-creature dwelling generator pools. Combat mechanics, resources and Spell IDs are unchanged.
+
+The fix was checked with compiled callback tests and executable-byte validation on both ERA installations. The game was not launched for this update; a fresh random-map generation still needs in-game verification.
 
 ## Spells
 

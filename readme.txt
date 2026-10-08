@@ -2,6 +2,12 @@
 
 Toxeos combat magic for Heroes of Might and Magic III ERA: area and delayed damage, stack control, protective effects and summons. This is a standalone mod; the story Toxeos mod is not required.
 
+## 0.4 beta
+
+Fixes a division-by-zero crash during random map generation. The summon-only creatures (Phoenix 122, Ice Dragon 124 and Earth Bonds 126) are now excluded from both single-creature and multi-creature dwelling generator pools. Combat mechanics, resources and Spell IDs are unchanged.
+
+The fix was checked with compiled callback tests and executable-byte validation on both ERA installations. The game was not launched for this update; a fresh random-map generation still needs in-game verification.
+
 ## Spells
 
 - **Blizzard** — Damages the target and stacks on adjacent hexes, reducing Speed by 2. The slow lasts 2/4/6 rounds according to mastery; Speed cannot fall below 2.
