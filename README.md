@@ -1,8 +1,21 @@
-[Русский](README.ru.md) · [Download](https://github.com/toxeanubis1994-arch/ERA-Spells/releases/tag/v0.4-beta)
+[Русский](README.ru.md) · [Download](https://github.com/toxeanubis1994-arch/ERA-Spells/releases/tag/v0.5)
 
 # ERA Spells
 
 Toxeos combat magic for Heroes of Might and Magic III ERA: area and delayed damage, stack control, protective effects and summons. This is a standalone mod; the story Toxeos mod is not required.
+
+## 0.5
+
+- Removed the runtime ERM command/array update path associated with the map-loading crash.
+- GEM research now reads the native spell availability table and the correct spell range. GEM files do not need modification; GEM is optional.
+- Added custom-spell learning through the Conflux Grail, respecting map bans and the hero's Wisdom. Learned spells remain available after leaving the town.
+- Added temporary custom spells from equipped elemental tomes. Removing a tome removes its temporary spells, while previously learned spells remain.
+- Corrected small spell/status icons and restored original spell icons instead of replacing them with custom artwork.
+- Included the current Desktop build, preserving its balance, English/Russian localization and map-editor support.
+
+Validation: build, callback checks, executable signatures and package integrity checked. The latest changes have NOT yet been verified in a running game. To check the new GEM research catalog, start a new game on an existing map; research arrays already stored in old saves are not rebuilt. Maps do not need to be recreated.
+
+Updating manually: replace the old **ERA Spells** folder with this version rather than merging files; obsolete icon overrides must be removed. Keep any personal configuration files separately if you want to retain customized settings.
 
 ## 0.4 beta
 
