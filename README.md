@@ -1,27 +1,17 @@
-[Русский](README.ru.md) · [Download](https://github.com/toxeanubis1994-arch/ERA-Spells/releases/tag/v0.5)
-
 # ERA Spells
 
-Toxeos combat magic for Heroes of Might and Magic III ERA: area and delayed damage, stack control, protective effects and summons. This is a standalone mod; the story Toxeos mod is not required.
+New combat magic for Heroes III ERA: damage spells, control, protective effects and summons. Standalone mod by Toxeos, with English and Russian support and Map Editor integration.
 
-## 0.5
+## Compatibility
 
-- Removed the runtime ERM command/array update path associated with the map-loading crash.
-- GEM research now reads the native spell availability table and the correct spell range. GEM files do not need modification; GEM is optional.
-- Added custom-spell learning through the Conflux Grail, respecting map bans and the hero's Wisdom. Learned spells remain available after leaving the town.
-- Added temporary custom spells from equipped elemental tomes. Removing a tome removes its temporary spells, while previously learned spells remain.
-- Corrected small spell/status icons and restored original spell icons instead of replacing them with custom artwork.
-- Included the current Desktop build, preserving its balance, English/Russian localization and map-editor support.
+- **GEM**: uses the native spell catalog; no changes to GEM files are required. Research lists already stored in older saves are not rebuilt.
+- **JS / InstantAnim, TUM / Amethyst**: the 0.6 Beta build was checked in Complete with these mods enabled; Heavenly Shield and custom effect icons work in that test. Amethyst and TUM are optional.
+- **ACM**: includes a fix for access to spell descriptions and parameters. Full Master/Grandmaster gameplay verification is pending; additional high-tier mechanics for the new spells are not included.
+- Requires **ERA/WoG and ERA Erm Framework**. Do not combine with story Toxeos or another mod replacing the same spell tables.
 
-Validation: build, callback checks, executable signatures and package integrity checked. The latest changes have NOT yet been verified in a running game. To check the new GEM research catalog, start a new game on an existing map; research arrays already stored in old saves are not rebuilt. Maps do not need to be recreated.
+## Latest update — 0.6 Beta
 
-Updating manually: replace the old **ERA Spells** folder with this version rather than merging files; obsolete icon overrides must be removed. Keep any personal configuration files separately if you want to retain customized settings.
-
-## 0.4 beta
-
-Fixes a division-by-zero crash during random map generation. The summon-only creatures (Phoenix 122, Ice Dragon 124 and Earth Bonds 126) are now excluded from both single-creature and multi-creature dwelling generator pools. Combat mechanics, resources and Spell IDs are unchanged.
-
-The fix was checked with compiled callback tests and executable-byte validation on both ERA installations. The game was not launched for this update; a fresh random-map generation still needs in-game verification.
+Fixed effect icons with Amethyst, native-effect initialization with JS InstantAnim and after loading saves. Added the new Invisibility animation. Campaign event and ACM description fixes are included for further testing.
 
 ## Spells
 
@@ -39,7 +29,7 @@ The fix was checked with compiled callback tests and executable-byte validation 
 
 - **Heavenly Shield** — Protects against physical damage, but not magical damage. It ends after its duration or hit limit is reached; limits depend on mastery.
 
-- **Rampage** — Doubles a friendly stack's direct damage for two activations. Retaliation is also amplified and does not consume an activation of the effect.
+- **Rampage** — Temporarily doubles a friendly stack's direct damage, including retaliation.
 
 - **Summon Phoenix** — Summons one Phoenix whose stats scale with hero level, Spell Power and Fire Magic. It flies, attacks three targets without retaliation and has Fire Shield. On death or replacement it releases Inferno. Recasting replaces the previous Phoenix.
 
@@ -81,14 +71,4 @@ Graphics assistance: **Dalion** and **Toriko**.
 
 You are welcome to modify the mod and share your own versions.
 
-## Screenshots
-
-![ERA Spells 1](Screens/1.png)
-
-![ERA Spells 2](Screens/2.png)
-
-![ERA Spells 3](Screens/3.png)
-
-![ERA Spells 4](Screens/4.png)
-
-![ERA Spells 5](Screens/5.png)
+[Release history](https://github.com/toxeanubis1994-arch/ERA-Spells/blob/main/CHANGELOG.md) · [Download 0.6 Beta](https://github.com/toxeanubis1994-arch/ERA-Spells/releases/tag/v0.6-beta)

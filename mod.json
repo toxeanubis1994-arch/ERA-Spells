@@ -5,8 +5,8 @@
   },
   "description": {
     "short": {
-      "ru_RU": "Заклинания Toxeos для ERA: нативный движок, редактор карт и H3M. Русский и английский языки.",
-      "en_US": "Native Toxeos spells for ERA, with Map Editor and H3M support. English and Russian."
+      "en_US": "New combat spells, protective effects and summons. English/Russian; Map Editor support.",
+      "ru_RU": "Новые боевые заклинания, защита и призывы. Русский/английский языки, поддержка редактора карт."
     },
     "full": {
       "en_US": "readme.txt",
@@ -14,7 +14,7 @@
     }
   },
   "author": "Toxeos",
-  "mod_version": "0.5",
+  "mod_version": "0.6 Beta",
   "platform": "era",
   "info_version": "1.0",
   "priority": 2,
