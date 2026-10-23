@@ -9,7 +9,9 @@ New combat magic for Heroes III ERA: damage spells, control, protective effects 
 - **ACM**: includes a fix for access to spell descriptions and parameters. Full Master/Grandmaster gameplay verification is pending; additional high-tier mechanics for the new spells are not included.
 - Requires **ERA/WoG and ERA Erm Framework**. Do not combine with story Toxeos or another mod replacing the same spell tables.
 
-## Latest update — 0.7
+## Latest update — 0.7.1
+
+Vampirism now uses the approved bat artwork in all four icon formats; spell mechanics are unchanged.
 
 Four new spells, updated artwork and sounds, revised balance and compact descriptions. Third-party generators can read live map bans through the included API/SDK.
 
@@ -89,4 +91,6 @@ Graphics assistance: **Dalion** and **Toriko**.
 
 You are welcome to modify the mod and share your own versions.
 
-[Release history](https://github.com/toxeanubis1994-arch/ERA-Spells/blob/main/CHANGELOG.md) · [Download 0.7](https://github.com/toxeanubis1994-arch/ERA-Spells/releases/tag/v0.7)
+[Release history](https://github.com/toxeanubis1994-arch/ERA-Spells/blob/main/CHANGELOG.md) · [Download 0.7.1](https://github.com/toxeanubis1994-arch/ERA-Spells/releases/tag/v0.7.1)
+
+![Vampirism: four icon formats](Screens/Vampirism-icons.png)

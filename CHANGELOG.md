@@ -1,5 +1,10 @@
 # ERA Spells — release history
 
+## 0.7.1
+
+- Replaced Vampirism artwork with the approved bat in the spellbook, spell scroll, combat status icon, and adventure scroll (SpellBon.def).
+- Synchronized all four formats between the story profile and both standalone installations. Spell mechanics are unchanged.
+
 ## 0.7
 
 - Added four spells: **Survey**, **Mobility**, **Strength**, and **Vampirism**; the catalog now contains 23 custom spells (IDs 81–103).
