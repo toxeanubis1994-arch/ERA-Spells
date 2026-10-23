@@ -2,6 +2,10 @@
 
 ## 0.7.1
 
+- Restored the six author-provided screenshots; removed the unrequested icon demonstration.
+- Survey, Mobility, Strength and Vampirism popup titles now show Basic/Advanced/Expert mastery; spellbook names stay unchanged.
+- Simplified Confusion and Invisibility duration text; removed Confusion's repeated single-target sentence.
+
 - Replaced Vampirism artwork with the approved bat in the spellbook, spell scroll, combat status icon, and adventure scroll (SpellBon.def).
 - Synchronized all four formats between the story profile and both standalone installations. Spell mechanics are unchanged.
 

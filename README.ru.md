@@ -79,9 +79,17 @@
 
 ## Скриншоты
 
-![Обзор и Мобильность в книге](Screens/1.png)
+![Магия Воздуха](Screens/1.png)
 
-![Описание Прочности и школа Воды](Screens/4.png)
+![Магия Земли](Screens/2.png)
+
+![Магия Огня](Screens/3.png)
+
+![Магия Воды](Screens/4.png)
+
+![Заклинания приключений](Screens/5.png)
+
+![Метель в бою](Screens/6.png)
 
 ## Авторы
 
@@ -93,4 +101,3 @@
 
 [История версий](https://github.com/toxeanubis1994-arch/ERA-Spells/blob/main/CHANGELOG.ru.md) · [Скачать 0.7.1](https://github.com/toxeanubis1994-arch/ERA-Spells/releases/tag/v0.7.1)
 
-![Vampirism: four icon formats](Screens/Vampirism-icons.png)

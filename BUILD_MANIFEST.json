@@ -1,130 +1,24 @@
 {
   "version": "0.7.1",
-  "status": "ERA Spells0.7.1; approved bat artwork in all four formats",
+  "status": "ERA Spells0.7.1; exact six author Screens and tested ranked popup/prose corrections",
   "files": {
     ".gitattributes": {
       "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992",
       "bytes": 9
     },
     "CHANGELOG.md": {
-      "sha256": "005a2b5b453294f13996f48ca784a5e74c026a71db39d74be9355e2b44846cd3",
-      "bytes": 6222,
-      "source": "0.7.1 approved Vampirism bat artwork"
+      "sha256": "562d8eb2f2be8c17d72e1ab91a91a9b56661122461d629e8a779ae2d2a6225fd",
+      "bytes": 6494,
+      "source": "Author Screens and ranked popup corrections2026-10-24"
     },
     "CHANGELOG.ru.md": {
-      "sha256": "d100277dd070c552c694546c8e29b37124c06f3d8aa1d199abfa94a0738e05d7",
-      "bytes": 10514,
-      "source": "0.7.1 approved Vampirism bat artwork"
+      "sha256": "a013d14f63cc36fa5b905728be6f1a4631f7846c3ff9fe1996a9e465ac0b3c0f",
+      "bytes": 11064,
+      "source": "Author Screens and ranked popup corrections2026-10-24"
     },
     "COMPATIBILITY.json": {
       "sha256": "5f0ec453dd5cf9576501deb45cb960d38147fd252c704955cbfc9112434010eb",
       "bytes": 888
-    },
-    "era-spells.ico": {
-      "sha256": "57163c90e9599debe8b5219142ff56d26c5f7c7fe23bf54ac9bb00a8c87b8a21",
-      "bytes": 133144
-    },
-    "era-spells.png": {
-      "sha256": "f820ba7b18584d0c9ce3c4915ab23ff9e77edc2d4fcd2528bc8a67a61a1d9870",
-      "bytes": 310005
-    },
-    "mod.json": {
-      "sha256": "9229f0c091cfc6a770dbaf032a8700762509e8d4f39fb7d14029b1405f6b84f7",
-      "bytes": 706,
-      "source": "0.7.1 approved Vampirism bat artwork"
-    },
-    "README.md": {
-      "sha256": "01a48db4f87e576bdcc359176a86e89c6c2e75abd114005100804aa9ecada46a",
-      "bytes": 6652,
-      "source": "0.7.1 approved Vampirism bat artwork"
-    },
-    "README.ru.md": {
-      "sha256": "c988648bd5f08cf4c5e1de7245870772292a36f2f8c54b3177f38dbb06a84368",
-      "bytes": 11168,
-      "source": "0.7.1 approved Vampirism bat artwork"
-    },
-    "readme.txt": {
-      "sha256": "01a48db4f87e576bdcc359176a86e89c6c2e75abd114005100804aa9ecada46a",
-      "bytes": 6652,
-      "source": "0.7.1 approved Vampirism bat artwork"
-    },
-    "readmeru.txt": {
-      "sha256": "c988648bd5f08cf4c5e1de7245870772292a36f2f8c54b3177f38dbb06a84368",
-      "bytes": 11168,
-      "source": "0.7.1 approved Vampirism bat artwork"
-    },
-    "Data/ToxeosNative.pac": {
-      "sha256": "53a2e9eb77258c52e478b584d738c6ca79e17e967a408c035f53a1e216110945",
-      "bytes": 3241426,
-      "source": "0.7.1 approved Vampirism bat artwork"
-    },
-    "Data/ToxeosNative.snd": {
-      "sha256": "c962cc0f7973063e65ddf1d54531b82c8d97bbf9b367c49e59e217310eb809e9",
-      "bytes": 1328234
-    },
-    "EraEditor/ToxEditor.dll": {
-      "sha256": "b9aebe8b3906b2762619a146e3f5f5d2f4cb261babf3720143c6c37e174dc8e8",
-      "bytes": 1602560
-    },
-    "EraPlugins/ToxAdventureSpells.era": {
-      "sha256": "ba770ce244d0290ec2bffbfe7a0304485e1ac518a120c0854d85aa1f199f6634",
-      "bytes": 763392
-    },
-    "EraPlugins/ToxeosBlizzard.era": {
-      "sha256": "7bab5fa3d2b38ba5285007a86f1e07fc1cb62d340f26f3db9665663c42e69de8",
-      "bytes": 309248
-    },
-    "EraPlugins/ToxNativeSpells.era": {
-      "sha256": "9f7467455f55b906bbd365ce0ad282bb9b5c9775f26e617df43564bb03e0e4da",
-      "bytes": 826368
-    },
-    "EraPlugins/ToxSpellTransport.era": {
-      "sha256": "8da14d2adf3a810d4c70eb7fb19a8c9efea0ff0a014eaa366d792fc5d0fe4976",
-      "bytes": 1491968
-    },
-    "Lang/toxeos_native.json": {
-      "sha256": "fe1054ac5a932158c0d57a3781f39fdfb829326f13c060a387953c8640c241bc",
-      "bytes": 13090
-    },
-    "Screens/1.png": {
-      "sha256": "af00e56e7ab6f005b72ddad55c08cdc471b00ceb2b7c35b439a0751e92e3ecf6",
-      "bytes": 1433395
-    },
-    "Screens/2.png": {
-      "sha256": "ca2b5ff07e660750b639190f442198ecf11dd884ed4b2d408fffbf3a3b5a4bdc",
-      "bytes": 1571845
-    },
-    "Screens/3.png": {
-      "sha256": "9641604fcb7985da0f87ca8db2f36225aa05779fbbe80fb629b97b1e65d2e13d",
-      "bytes": 1591212
-    },
-    "Screens/4.png": {
-      "sha256": "dbb77508639a85770920c60f1040b4260d98de86200ecd680c2aa9ff046ae774",
-      "bytes": 1485365
-    },
-    "Screens/5.png": {
-      "sha256": "a3066550cefb1cedc48c4ab37941b852c5d839b011512a3269ab1d827ba73ec7",
-      "bytes": 962488
-    },
-    "ToxData/editor_spells.ru.tsv": {
-      "sha256": "e2a3da006fd8c069dc18c1800cd5506ae3a71ebf5c301f7602908481250b6f1e",
-      "bytes": 800
-    },
-    "ToxData/editor_spells.tsv": {
-      "sha256": "24106af06b164224f08eeb3016035ae6c13f090842e64f441ce1838f6b42b389",
-      "bytes": 570
-    },
-    "ToxData/native_spells.ini": {
-      "sha256": "558ffa55221cb4d698ec26696a6eb6dbfe2d22664f70b31198a07a5655acc503",
-      "bytes": 72
-    },
-    "ToxData/spell_generation.tsv": {
-      "sha256": "7de2018996508ac6ba8c515ed81eb7b4a7d2b8a1acefad478d277dc4dafa47ba",
-      "bytes": 1414
-    },
-    "Data/s/zz_tox_gem_spell_popup.erm": {
-      "sha256": "166754489c67d9a54ef86f5902814e5f7e2c9ec7f6561206c390b635ef31a993",
-      "bytes": 1836
     },
     "Data/Defs/cprsmall.def/0_124.png": {
       "sha256": "44f27e7df20006b9137fce92d2365b2ddc30db181aee8d1a41641ac56e2c7c62",
@@ -602,9 +496,18 @@
       "sha256": "22ddc3ca82bd6d8bea55487a48ed30d4c506537f12d7b78a74c1476ad9195d15",
       "bytes": 9316
     },
-    "Developers/SpellIntegration/example.cpp": {
-      "sha256": "bdeae1100ed0d2e6858b340699f4510a36ca5d6878f6a164716f9fbf623fac79",
-      "bytes": 549
+    "Data/ToxeosNative.pac": {
+      "sha256": "53a2e9eb77258c52e478b584d738c6ca79e17e967a408c035f53a1e216110945",
+      "bytes": 3241426,
+      "source": "0.7.1 approved Vampirism bat artwork"
+    },
+    "Data/ToxeosNative.snd": {
+      "sha256": "c962cc0f7973063e65ddf1d54531b82c8d97bbf9b367c49e59e217310eb809e9",
+      "bytes": 1328234
+    },
+    "Data/s/zz_tox_gem_spell_popup.erm": {
+      "sha256": "166754489c67d9a54ef86f5902814e5f7e2c9ec7f6561206c390b635ef31a993",
+      "bytes": 1836
     },
     "Developers/SpellIntegration/README.md": {
       "sha256": "12b416984120f03de84c9a229d6b65486f6603e2fda1f561ceb87595e358912e",
@@ -614,14 +517,119 @@
       "sha256": "b6b41b5a524285ee9117c9ee5fe8a8c8bc2dc74b948acd69c05935064e007ebe",
       "bytes": 1004
     },
-    "Lang/ru/toxeos_native.json": {
-      "sha256": "4c3f2a48db2f70f289216c8965a770940ded87d3acfa4c350e1a199aaa67a21a",
-      "bytes": 22181
+    "Developers/SpellIntegration/example.cpp": {
+      "sha256": "bdeae1100ed0d2e6858b340699f4510a36ca5d6878f6a164716f9fbf623fac79",
+      "bytes": 549
     },
-    "Screens/Vampirism-icons.png": {
-      "sha256": "4c620020f2fd57656b7083085a6d7f87ae01f4d74ebc651a9775c69b0984acb8",
-      "bytes": 70783,
+    "EraEditor/ToxEditor.dll": {
+      "sha256": "b9aebe8b3906b2762619a146e3f5f5d2f4cb261babf3720143c6c37e174dc8e8",
+      "bytes": 1602560
+    },
+    "EraPlugins/ToxAdventureSpells.era": {
+      "sha256": "ba770ce244d0290ec2bffbfe7a0304485e1ac518a120c0854d85aa1f199f6634",
+      "bytes": 763392
+    },
+    "EraPlugins/ToxNativeSpells.era": {
+      "sha256": "9f7467455f55b906bbd365ce0ad282bb9b5c9775f26e617df43564bb03e0e4da",
+      "bytes": 826368
+    },
+    "EraPlugins/ToxSpellTransport.era": {
+      "sha256": "8da14d2adf3a810d4c70eb7fb19a8c9efea0ff0a014eaa366d792fc5d0fe4976",
+      "bytes": 1491968
+    },
+    "EraPlugins/ToxeosBlizzard.era": {
+      "sha256": "5f4f2efaea3807226f7d93e4f0771c41ebee3a2a230bed981c0a2c1a4febaaf4",
+      "bytes": 309248,
+      "source": "Author Screens and ranked popup corrections2026-10-24"
+    },
+    "Lang/ru/toxeos_native.json": {
+      "sha256": "55755dc740fc0cd6041bb79572d83a462fa30d51ad76b7553e8a13340007e7db",
+      "bytes": 22192,
+      "source": "Author Screens and ranked popup corrections2026-10-24"
+    },
+    "Lang/toxeos_native.json": {
+      "sha256": "2b579bd9545189acd3f603eef4b6175cdcad8fff99fbf610f892872622df9dea",
+      "bytes": 13084,
+      "source": "Author Screens and ranked popup corrections2026-10-24"
+    },
+    "README.md": {
+      "sha256": "8883f1d8d64911b7330cf12b7ba7dd75efc78b8b586204bda8388cb6093ff77c",
+      "bytes": 6577,
+      "source": "Author Screens and ranked popup corrections2026-10-24"
+    },
+    "README.ru.md": {
+      "sha256": "530c33e099967dcbc2adbc172b3277d5b29319ece092a6335437011ada1fb9c2",
+      "bytes": 11132,
+      "source": "Author Screens and ranked popup corrections2026-10-24"
+    },
+    "Screens/1.png": {
+      "sha256": "e96939b784d17d35dd3b120324a3b0f0652df1476c219a317e84a430ca351196",
+      "bytes": 1469394,
+      "source": "Author Screens and ranked popup corrections2026-10-24"
+    },
+    "Screens/2.png": {
+      "sha256": "9c4af56ccd256b52c80dddf117f51b117012fca0faa5950c6c132cc1ae619fa7",
+      "bytes": 1471101,
+      "source": "Author Screens and ranked popup corrections2026-10-24"
+    },
+    "Screens/3.png": {
+      "sha256": "a992b7af20f7e4e47b30ff57042ae5131a3de832d3036b64e3a803361d1fb0a1",
+      "bytes": 1471208,
+      "source": "Author Screens and ranked popup corrections2026-10-24"
+    },
+    "Screens/4.png": {
+      "sha256": "fc33798c6801c4a4d734f217da14a7ad19851d13d1c0366dadfb92f84ab6beb1",
+      "bytes": 1475584,
+      "source": "Author Screens and ranked popup corrections2026-10-24"
+    },
+    "Screens/5.png": {
+      "sha256": "c7b6abdbe3dfff537f56dd571e93358953d6ee2c9eed1186d998518f6c6bee9d",
+      "bytes": 1381435,
+      "source": "Author Screens and ranked popup corrections2026-10-24"
+    },
+    "Screens/6.png": {
+      "sha256": "eaf8f27b25a396b91cba9713b95b194acffbca1640c97e536a20bf4949772f84",
+      "bytes": 436557,
+      "source": "Author Screens and ranked popup corrections2026-10-24"
+    },
+    "ToxData/editor_spells.ru.tsv": {
+      "sha256": "e2a3da006fd8c069dc18c1800cd5506ae3a71ebf5c301f7602908481250b6f1e",
+      "bytes": 800
+    },
+    "ToxData/editor_spells.tsv": {
+      "sha256": "24106af06b164224f08eeb3016035ae6c13f090842e64f441ce1838f6b42b389",
+      "bytes": 570
+    },
+    "ToxData/native_spells.ini": {
+      "sha256": "558ffa55221cb4d698ec26696a6eb6dbfe2d22664f70b31198a07a5655acc503",
+      "bytes": 72
+    },
+    "ToxData/spell_generation.tsv": {
+      "sha256": "7de2018996508ac6ba8c515ed81eb7b4a7d2b8a1acefad478d277dc4dafa47ba",
+      "bytes": 1414
+    },
+    "era-spells.ico": {
+      "sha256": "57163c90e9599debe8b5219142ff56d26c5f7c7fe23bf54ac9bb00a8c87b8a21",
+      "bytes": 133144
+    },
+    "era-spells.png": {
+      "sha256": "f820ba7b18584d0c9ce3c4915ab23ff9e77edc2d4fcd2528bc8a67a61a1d9870",
+      "bytes": 310005
+    },
+    "mod.json": {
+      "sha256": "9229f0c091cfc6a770dbaf032a8700762509e8d4f39fb7d14029b1405f6b84f7",
+      "bytes": 706,
       "source": "0.7.1 approved Vampirism bat artwork"
+    },
+    "readme.txt": {
+      "sha256": "8883f1d8d64911b7330cf12b7ba7dd75efc78b8b586204bda8388cb6093ff77c",
+      "bytes": 6577,
+      "source": "Author Screens and ranked popup corrections2026-10-24"
+    },
+    "readmeru.txt": {
+      "sha256": "530c33e099967dcbc2adbc172b3277d5b29319ece092a6335437011ada1fb9c2",
+      "bytes": 11132,
+      "source": "Author Screens and ranked popup corrections2026-10-24"
     }
   }
 }

@@ -79,9 +79,17 @@ Use the read-only [spell-restrictions API/SDK](Developers/SpellIntegration/READM
 
 ## Screenshots
 
-![Survey and Mobility in the spellbook](Screens/1.png)
+![Air Magic](Screens/1.png)
 
-![Strength description and Water spells](Screens/4.png)
+![Earth Magic](Screens/2.png)
+
+![Fire Magic](Screens/3.png)
+
+![Water Magic](Screens/4.png)
+
+![Adventure spells](Screens/5.png)
+
+![Blizzard in combat](Screens/6.png)
 
 ## Credits
 
@@ -93,4 +101,3 @@ You are welcome to modify the mod and share your own versions.
 
 [Release history](https://github.com/toxeanubis1994-arch/ERA-Spells/blob/main/CHANGELOG.md) · [Download 0.7.1](https://github.com/toxeanubis1994-arch/ERA-Spells/releases/tag/v0.7.1)
 
-![Vampirism: four icon formats](Screens/Vampirism-icons.png)
