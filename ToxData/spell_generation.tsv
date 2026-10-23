@@ -45,3 +45,9 @@ Spell 97 0 0 0
 Spell 98 2 2 0
 # Невидимость
 Spell 99 15 50 0
+
+# Local four-spell additions 2026-10-19
+Spell 100 20 50 0
+Spell 101 12 50 0
+Spell 102 15 50 0
+Spell 103 8 50 0

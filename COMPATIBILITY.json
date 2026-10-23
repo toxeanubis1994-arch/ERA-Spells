@@ -1,0 +1,48 @@
+{
+  "version": "0.7",
+  "gameplay_scope": "Current author-maintained ERA Spells; author approved Survey miniature and supplied current spellbook screenshots",
+  "automated": {
+    "standalone_callback_checks": 44239,
+    "story_callback_checks": 44132,
+    "codec_state_checks": 474,
+    "editor_spell_ids": [
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103
+    ],
+    "translation_keys": 129
+  },
+  "pending": [
+    "New Vampire Lord life-drain presentation in game",
+    "All battle-replay paths",
+    "All campaign/mod combinations",
+    "Full ACM Master/Grandmaster gameplay"
+  ],
+  "summon_slots": [
+    122,
+    124,
+    126
+  ],
+  "story_talents_included": false,
+  "spell_restrictions_api": 1
+}

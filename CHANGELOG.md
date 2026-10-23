@@ -1,5 +1,24 @@
 # ERA Spells — release history
 
+## 0.7
+
+- Added four spells: **Survey**, **Mobility**, **Strength**, and **Vampirism**; the catalog now contains 23 custom spells (IDs 81–103).
+- Survey reveals a chosen area until the owner's next turn. Ordinary exploration remains visible. Mobility grants 300 movement points; a hero must win a battle before casting it again that day.
+- Strength is a Water spell lasting 3 rounds. Its independent shield formula is 9 × Spell Power + 9/9/18/27.
+- Vampirism drains 15/20/25/30% damage and reduces maximum Health by 25/20/15/10%, according to Fire Magic mastery. Cure removes it. Successful healing now plays the native Vampire Lord life-drain animation and sound on the attacker.
+- Fury of the Elements uses its own formula: floor(97.5 × Spell Power +130/130/260/390). It does not read Implosion's parameters.
+- Summon Phoenix is now **Summon Flame Spirit**; the creature itself is named **Flame Spirit**. The description explains the army contribution to its stats and mana scaling from hero level 20; the redundant base-cost sentence was removed.
+- Updated the author's Vampirism book/scroll/status artwork and Survey scroll. Included the approved Survey status portrait with the thumb in front of the telescope and fingers behind it.
+- Installed the author's selected Mobility scroll.
+- Updated private spell sounds, including Strength's selected Magic Shell sound, and Incineration's small icon.
+- Fixed the GEM right-click description path for IDs 100–103 without modifying GEM files. Improved custom status-icon compatibility with RK/Amethyst.
+- Successful Counterstrike and Confusion applications cancel each other. Corrected a combat-hook overlap affecting Vampirism and quick battle.
+- Shortened spell descriptions, clarified war-machine exclusions and Deep Freeze's 200/150/50% modifiers, and removed excessive popup spacing. Deep Freeze's damage and duration now share one compact value block.
+- Added a read-only **spell-restrictions API v1**, C++ header and example for third-party object/spell generators in Developers/SpellIntegration.
+- Updated screenshots with the author's current game captures.
+
+Validation: 44,239 standalone callback checks, 44,132 story callback checks, 474 codec/state checks, 23 editor IDs, 129 EN/RU text keys, native resource lookup and package/resource hashes. The Survey miniature is approved by the author. The new drain presentation still needs an in-game check. Full ACM Master/Grandmaster mechanics and exhaustive replay/campaign/mod-combination testing remain outside this release's validation scope.
+
 ## 0.6 Beta
 
 - Fixed custom buff/debuff icons in the creature window when Amethyst is installed. Standard spell icons remain unchanged.

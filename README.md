@@ -9,19 +9,19 @@ New combat magic for Heroes III ERA: damage spells, control, protective effects 
 - **ACM**: includes a fix for access to spell descriptions and parameters. Full Master/Grandmaster gameplay verification is pending; additional high-tier mechanics for the new spells are not included.
 - Requires **ERA/WoG and ERA Erm Framework**. Do not combine with story Toxeos or another mod replacing the same spell tables.
 
-## Latest update — 0.6 Beta
+## Latest update — 0.7
 
-Fixed effect icons with Amethyst, native-effect initialization with JS InstantAnim and after loading saves. Added the new Invisibility animation. Campaign event and ACM description fixes are included for further testing.
+Four new spells, updated artwork and sounds, revised balance and compact descriptions. Third-party generators can read live map bans through the included API/SDK.
 
 ## Spells
 
 - **Blizzard** — Damages the target and stacks on adjacent hexes, reducing Speed by 2. The slow lasts 2/4/6 rounds according to mastery; Speed cannot fall below 2.
 
-- **Deep Freeze** — Damages and freezes a stack, preventing it from acting or retaliating. The first damaging hit breaks the ice. Physical damage is amplified; Fire damage is increased and damage from other schools is reduced.
+- **Deep Freeze** — Damages and freezes a stack, preventing it from acting or retaliating. The first damaging hit breaks the ice. The first hit deals 200% physical damage, 150% Fire Magic damage or 50% damage from other spells.
 
 - **Heavenly Wrath** — Strikes a selected stack with a powerful discharge. A surviving target that has not acted loses its turn in the current round.
 
-- **Cataclysm** — Damages ground creatures in both armies, leaving flying creatures unharmed. It can also make stacks that have not acted lose their current turn.
+- **Cataclysm** — Damages ground creatures in both armies, leaving flying creatures and war machines unharmed. It can also make stacks that have not acted lose their current turn.
 
 - **Dragon Wrath** — Increases a friendly stack's Defense and makes it a preferred target for enemy AI.
 
@@ -31,7 +31,7 @@ Fixed effect icons with Amethyst, native-effect initialization with JS InstantAn
 
 - **Rampage** — Temporarily doubles a friendly stack's direct damage, including retaliation.
 
-- **Summon Phoenix** — Summons one Phoenix whose stats scale with hero level, Spell Power and Fire Magic. It flies, attacks three targets without retaliation and has Fire Shield. On death or replacement it releases Inferno. Recasting replaces the previous Phoenix.
+- **Summon Flame Spirit** — Summons one creature named Flame Spirit whose stats depend on hero level, Spell Power, Fire Magic, and the living army. Mana cost starts increasing at level 20. It flies, attacks three targets without retaliation and has Fire Shield. On death or replacement it releases Inferno. Recasting replaces the previous Flame Spirit.
 
 - **Earth Bonds** — Creates an impassable barrier of roots. Attacks and spells can destroy it; durability and lifetime depend on mastery.
 
@@ -39,29 +39,47 @@ Fixed effect icons with Amethyst, native-effect initialization with JS InstantAn
 
 - **Telekinesis** — Moves an enemy stack within 6 hexes, bypassing walls and obstacles. Eligible creature levels depend on mastery.
 
-- **Confusion** — Prevents enemy retaliation. Expert mastery affects all eligible enemy stacks. Duration equals the hero's Spell Power.
+- **Confusion** — Prevents enemy retaliation. Expert mastery affects all eligible enemy stacks. Duration equals the hero's Spell Power. Successful Confusion removes Counterstrike; successful Counterstrike removes Confusion.
 
 - **Restoration** — Restores machines and golems.
 
 - **Wasp Swarm** — Deals half its damage immediately and the other half at the start of the next round, then ends.
 
-- **Tsunami** — Damages all enemy stacks without harming friendly troops.
+- **Tsunami** — Damages all enemy stacks except war machines.
 
 - **Ice Dragon** — Summons a non-living, two-hex Ice Dragon protected against Water and Mind magic. Durability is measured in hits. Base cost: 25 mana. Available only through manual assignment, not random guilds or shrines.
 
 - **Fury of the Elements** — Unleashes the power of all four elements against a selected enemy stack. A rare spell that is not granted by elemental books.
 
-- **Invisibility** — Hides a friendly stack and lowers its targeting priority for enemy AI. Movement or an incoming or outgoing attack removes it; waiting and defending do not. Duration equals the hero's Spell Power.
+- **Invisibility** — Hides a friendly stack. Movement or an incoming or outgoing attack removes it; waiting and defending do not. Duration equals the hero's Spell Power.
+
+- **Survey** — Temporarily reveals a chosen map area until the owner's next turn; normal exploration is preserved.
+
+- **Mobility** — Adds 300 movement points. A battle victory is required between repeated casts that day.
+
+- **Strength** — A 3-round Water shield absorbing 9 × Spell Power + 9/9/18/27 damage.
+
+- **Vampirism** — Drains 15/20/25/30% damage; maximum Health is reduced by 25/20/15/10%. Cure removes the effect. Healing plays the native Vampire Lord life-drain effect.
 
 ## Acquisition and Map Editor
 
-Assign spells to heroes, Mage Guilds, Shrines and other supported sources in ERA Map Editor; assignments are saved in the map. Ordinary custom spells can also appear randomly in guilds and shrines, less often than stock spells. Configure generation in `ToxData/spell_generation.tsv`. Fury of the Elements retains its separate rare chance. Phoenix does not generate in Rampart, Tower or Necropolis. Ice Dragon and Fury of the Elements are excluded from elemental books.
+Assign spells to heroes, Mage Guilds, Shrines and other supported sources in ERA Map Editor; assignments are saved in the map. Ordinary custom spells can also appear randomly in guilds and shrines, less often than stock spells. Configure generation in `ToxData/spell_generation.tsv`. Fury of the Elements retains its separate rare chance. Summon Flame Spirit does not generate in Rampart, Tower or Necropolis. Ice Dragon and Fury of the Elements are excluded from elemental books.
 
 ## Installation and language
 
 Install the **ERA Spells** folder under `Mods` and enable it. Requires ERA/WoG and ERA Erm Framework. Amethyst and New Spells are not required. Do not enable simultaneously with the story Toxeos mod or another expansion replacing the same spell tables.
 
 English is the default. Select `ru` in ERA settings for Russian, or set `Language=ru` under `[Era]` in `heroes3.ini`. Use `Language=en` for English. Restart the game and editor.
+
+## For plugin authors
+
+Use the read-only [spell-restrictions API/SDK](Developers/SpellIntegration/README.md) to check live map bans for stock and custom spells. The old 70-spell field does not cover the expanded catalog. API v1 includes a C++ header and example; it does not replace your generator's school, rarity or per-object filters.
+
+## Screenshots
+
+![Survey and Mobility in the spellbook](Screens/1.png)
+
+![Strength description and Water spells](Screens/4.png)
 
 ## Credits
 
@@ -71,4 +89,4 @@ Graphics assistance: **Dalion** and **Toriko**.
 
 You are welcome to modify the mod and share your own versions.
 
-[Release history](https://github.com/toxeanubis1994-arch/ERA-Spells/blob/main/CHANGELOG.md) · [Download 0.6 Beta](https://github.com/toxeanubis1994-arch/ERA-Spells/releases/tag/v0.6-beta)
+[Release history](https://github.com/toxeanubis1994-arch/ERA-Spells/blob/main/CHANGELOG.md) · [Download 0.7](https://github.com/toxeanubis1994-arch/ERA-Spells/releases/tag/v0.7)

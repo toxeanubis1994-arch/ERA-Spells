@@ -1,0 +1,43 @@
+ZVSE2
+
+; GEM's popup function exits at spellId > 99. ERA dispatches the named Quit
+; event after that early return, independently of script loading order.
+; All text, pictures and research hints still come from the live tables/GEM.
+!#DC(TOX_GEM_POPUP_FIRST) = 100;
+!#DC(TOX_GEM_POPUP_LAST) = 103;
+!#DC(TOX_GEM_POPUP_GUILD_DLG) = 506;
+
+!?FU(srm_spell_description_and_picture_message_Quit);
+!#VA(spellId:x) (clickSubtype:x) (elementId:x) (dlgId:x);
+!!FU&(spellId)<(TOX_GEM_POPUP_FIRST):E;
+!!FU&(spellId)>(TOX_GEM_POPUP_LAST):E;
+!!FU&(clickSubtype)<>(MOUSE_LMB_PRESSED)/(clickSubtype)<>(MOUSE_RMB_PRESSED):E;
+!!FU(TOX_GemSpells_ShowDetails):P(spellId)/(clickSubtype)/(elementId)/(dlgId);
+
+!?FU(TOX_GemSpells_ShowDetails);
+!#VA(spellId:x) (clickSubtype:x) (elementId:x) (dlgId:x);
+!#VA(description:z) (spellName:z) (additionalText:z) (firstChar:z);
+!#VA(nameLength:y) (descriptionLength:y) (messageType:y);
+!!SN:H^spell^/(spellId)/(SPELL_TEXT_DESCR)/?(description);
+!!VR(messageType):S(MSG_TYPE_POPUP);
+!!VR(messageType)&(clickSubtype)=(MOUSE_LMB_PRESSED):S(MSG_TYPE_MES);
+!!if&(dlgId)=(TOX_GEM_POPUP_GUILD_DLG);
+  !!SN:H^spell^/(spellId)/(SPELL_TEXT_NAME)/?(spellName);
+  !!SN:K(spellName)/?(nameLength);
+  !!VR(nameLength):+1;
+  !!SN:K(description)/?(descriptionLength) K(description)/0/?(firstChar);
+  !!if&(firstChar)=^{^;
+    !!VR(description):M1/(description)/(nameLength)/(descriptionLength);
+  !!el;
+    !!VR(description):S^
+
+^ +(description);
+  !!en;
+  !!if&(elementId)>=200;
+    !!SN:T^srm.scroll_texts.cant_change^/?(additionalText)/^spellName^/(spellName);
+  !!el;
+    !!SN:T^srm.scroll_texts.can_change^/?(additionalText)/^spellName^/(spellName);
+  !!en;
+  !!VR(description):S^%(additionalText)%(description)^;
+!!en;
+!!IF:Q1/(PIC_TYPE_SPELL)/(spellId)/(messageType)/^%(description)^;
