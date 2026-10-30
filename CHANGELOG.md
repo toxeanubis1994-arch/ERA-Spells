@@ -1,5 +1,12 @@
 # ERA Spells — release history
 
+## 0.7.2
+
+- Fixed the dragon-breath crash when an attack hits two stacks. The fix is included in ERA Spells; no replacement of patcher_x86.dll or other mods is needed.
+- Updated all four custom spell icon banks from the current story artwork, including Incineration and larger Vampirism/status icons; corrected native icon packing.
+- Strength now absorbs17 × Spell Power +10/10/20/45 damage, matching the story mod.
+- Removed bundled creature portrait banks and their source folders. Only the six required summon portrait PNG overrides remain; the game supplies its own creature banks and ordering.
+
 ## 0.7.1
 
 - Restored the six author-provided screenshots; removed the unrequested icon demonstration.

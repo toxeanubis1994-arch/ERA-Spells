@@ -1,5 +1,5 @@
 {
-  "version": "0.7",
+  "version": "0.7.2",
   "gameplay_scope": "Current author-maintained ERA Spells; author approved Survey miniature and supplied current spellbook screenshots",
   "automated": {
     "standalone_callback_checks": 44239,
@@ -44,5 +44,11 @@
     126
   ],
   "story_talents_included": false,
-  "spell_restrictions_api": 1
+  "spell_restrictions_api": 1,
+  "dragon_breath_hook": {
+    "site": "0x441799",
+    "requires_shared_patcher_update": false,
+    "isolated_native_test": "1000 cycles /4000 calls passed",
+    "live_game_retest": false
+  }
 }

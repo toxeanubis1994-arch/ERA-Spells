@@ -1,40 +1,25 @@
 {
-  "version": "0.7.1",
-  "status": "0.7.1 canonical92 icon correction: unique embedded names, exact runtime PNG overrides; gameplay and Screens unchanged",
+  "version": "0.7.2",
+  "status": "0.7.2: native breath hook compatibility, current story spell graphics, Strength17power, native game creature banks",
   "files": {
     ".gitattributes": {
       "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992",
       "bytes": 9
     },
     "CHANGELOG.md": {
-      "sha256": "562d8eb2f2be8c17d72e1ab91a91a9b56661122461d629e8a779ae2d2a6225fd",
-      "bytes": 6494,
-      "source": "Author Screens and ranked popup corrections2026-10-24"
+      "sha256": "a817fff4d4af5e57ebef4d563504fbbb569ddd86f144b0e117e9fa29829fc012",
+      "bytes": 7095,
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "CHANGELOG.ru.md": {
-      "sha256": "a013d14f63cc36fa5b905728be6f1a4631f7846c3ff9fe1996a9e465ac0b3c0f",
-      "bytes": 11064,
-      "source": "Author Screens and ranked popup corrections2026-10-24"
+      "sha256": "40c485e5b4816cc3a25980e9846580055bdc3292c073ce3eb1c0ebee93b4362d",
+      "bytes": 12097,
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "COMPATIBILITY.json": {
-      "sha256": "5f0ec453dd5cf9576501deb45cb960d38147fd252c704955cbfc9112434010eb",
-      "bytes": 888
-    },
-    "Data/Defs/cprsmall.def/0_124.png": {
-      "sha256": "44f27e7df20006b9137fce92d2365b2ddc30db181aee8d1a41641ac56e2c7c62",
-      "bytes": 4266
-    },
-    "Data/Defs/cprsmall.def/0_124_.png": {
-      "sha256": "9c1a2c8b281390aef058c01abb1cc0495b1f8358d5345ceb1e8d3fda0c5e4d05",
-      "bytes": 3186
-    },
-    "Data/Defs/cprsmall.def/0_126.png": {
-      "sha256": "4e1c13398bd2248532ec8ddcbcb348552e17be10301e4db7341bccbb176e2724",
-      "bytes": 4266
-    },
-    "Data/Defs/cprsmall.def/0_128.png": {
-      "sha256": "c19b4b40a947ebb9b7850dbfb34d8d5379708b26c7c8aa257e2378c5cb9abfe6",
-      "bytes": 1844
+      "sha256": "99091810f149f1cf051d0b6e77cebdac267ba9823a1ae746ccebcc3ce39bde5c",
+      "bytes": 1082,
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/invis.def/0_0.png": {
       "sha256": "9000b3a07d4dc036034b73b91c0873a1845e56bbaada09312823d67db0cdd3b8",
@@ -99,307 +84,307 @@
     "Data/Defs/spellbon.def/0_100.png": {
       "sha256": "e20c9c4f2a3a29c97dd9e52840a660e71112847d818c61572b2adc0bba6618fc",
       "bytes": 8592,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellbon.def/0_101.png": {
       "sha256": "febdc40f47ef7ee1cdeb0a1bd9b02e088675bccc6929038ff939c02e88b95394",
       "bytes": 8034,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellbon.def/0_102.png": {
       "sha256": "d6e7a48454f9c9decb9a41045b6d9263482d3520356d359701dfef795f8a170b",
       "bytes": 7784,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellbon.def/0_103.png": {
-      "sha256": "18408042af9136d3108b397460df9a103c0544c615846d6125138918d58283bd",
-      "bytes": 7159,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "sha256": "1e47d2d223d6e0901a3d175030afab4f79b4d0c67b3fa73cef239fd5791ad3e4",
+      "bytes": 7645,
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellbon.def/0_81.png": {
       "sha256": "3f192511bfd25b729152c9c5434c4c72e7aa43dd8726efe105b8171adc464872",
       "bytes": 7234,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellbon.def/0_82.png": {
       "sha256": "4650966971c59e6ff01346c4a2141c1bbbfecb0a3932d9e075fe5334e321c070",
       "bytes": 7526,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellbon.def/0_83.png": {
       "sha256": "852a8ababd8721649af381e77d0230b3f58a28249b62ba54d09003ffb988b65b",
       "bytes": 3672,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellbon.def/0_84.png": {
       "sha256": "131847797da2e7d8c6398b9ce42b439b2f8716631e2327bb99693f847fdcde61",
       "bytes": 9204,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellbon.def/0_85.png": {
       "sha256": "dbfc8765c891f30c747117382bf8e420e4663c8563dac268dd9b7aadf3901fc6",
       "bytes": 7585,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellbon.def/0_86.png": {
       "sha256": "33a85f5121f02004287d1b1f5c6664178f3e823d4ac237c9cbbddac4246ecc0e",
       "bytes": 7947,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellbon.def/0_87.png": {
       "sha256": "dd8b414ae2575448920121ec6804b02a8b809c6b88e58be77bc38d9738625d1a",
       "bytes": 8802,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellbon.def/0_88.png": {
       "sha256": "abbc1cedcd97dcb3657ce07f93280a797acef2191c71b03d1654b3c074a087a1",
       "bytes": 8408,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellbon.def/0_89.png": {
       "sha256": "737324bbb62752b4dcdf6a505a14913378284a30f1ff8e8e9c1bc142d10edc8d",
       "bytes": 9283,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellbon.def/0_90.png": {
       "sha256": "d1f187e1c585fa5caa4358b6a6ba5755fde5b01f3a74a4b7828bdf465b3a1bfb",
       "bytes": 3868,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellbon.def/0_91.png": {
-      "sha256": "196cbdeefb0778b272cc9e1fc159c85c53137ca47dbc88696e461c4e510e9f4e",
-      "bytes": 9193,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "sha256": "94472f358c1ce4835086945902a36889ab614a193529e639cc80e6b2d19c9a4e",
+      "bytes": 8349,
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellbon.def/0_92.png": {
       "sha256": "4fd937958f29db7003fcfdfd8cb198c7bcb43760f0fa582ff39da96899e3ad2f",
       "bytes": 7968,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellbon.def/0_93.png": {
       "sha256": "14137ce19d409779d4aaad19a095fcab4a3d558511c8b6e7dd2688ba6e694ffe",
       "bytes": 10038,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellbon.def/0_94.png": {
       "sha256": "7d46ab153fc1d33e5907af047dfef27b02227000fb0292892fa98690b62ab4e9",
       "bytes": 10408,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellbon.def/0_95.png": {
       "sha256": "d881ebc0b4d183e56126fb47e07778da574bb19ff222f2761d82b833f646e188",
       "bytes": 8482,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellbon.def/0_96.png": {
       "sha256": "67ad0d85ca5874afb0c6b990106cdf7f89c9f52fc83a7c63d571754ec139417e",
       "bytes": 8618,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellbon.def/0_97.png": {
       "sha256": "a5ac0e511898a7ef9fc818b8355d98791c5f406c8d6ce09f7723eebd9394fedf",
       "bytes": 8617,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellbon.def/0_98.png": {
       "sha256": "67432df5419c29b3129083f6c6e3ef0fc689e8222dfbc4134adb56c7af27b3e7",
       "bytes": 9768,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellbon.def/0_99.png": {
       "sha256": "31649bb073c0969d5b05200d05ab0638f24cdea0bfcdd2745a0998d60626fd1d",
       "bytes": 8075,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellint.def/0_100.png": {
       "sha256": "4b4ec0411d1491e9856c07eacd7bd5afe85536aeba69a4de52a0b04698bcb96d",
       "bytes": 4104,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellint.def/0_101.png": {
-      "sha256": "42460c346d7075db9a5e00292896ba3d19d7cd8f3ea1f529e064b98ba1ce8ee0",
-      "bytes": 4521,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "sha256": "4a94d372bdec304ddd1d57866015f7dce22873c6200b25938a9ef755c6ea69b2",
+      "bytes": 4504,
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellint.def/0_102.png": {
       "sha256": "99badbb1df98ac967eddb08c6301955b50fc4ffb1bedc38096440132206cff0f",
       "bytes": 4453,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellint.def/0_103.png": {
       "sha256": "e340d9ecf574d0acdb70b406b78003bcdffe39c361d497a8675e2049f2aca7f0",
       "bytes": 2565,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellint.def/0_104.png": {
       "sha256": "94d3548d92e81bd3ec5ae5f464c67aebecd7b5c9b786fcf7425927fee9c43549",
       "bytes": 4303,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellint.def/0_82.png": {
       "sha256": "b01718d471472ad12350580022efc360afd405b6d7f0469e239c4ecb4685ecce",
       "bytes": 3411,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellint.def/0_83.png": {
       "sha256": "999b81d95f8cb700e6e88d2174cd0348f7dff3a12b5939cee2f482ebff28c317",
       "bytes": 4468,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellint.def/0_84.png": {
       "sha256": "b9aaffa1da52460636811a7d88686f41d5846bc4388effd45a5e4d49748ee34f",
       "bytes": 4283,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellint.def/0_85.png": {
       "sha256": "6bd31790665f842a1023ef2738b249e5465b054c5b60b7e5fe871cda5209326f",
       "bytes": 3945,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellint.def/0_86.png": {
       "sha256": "85649e28a53ed65b162c5d90316027bb6a0027d51adef32d409de07352883c33",
       "bytes": 4075,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellint.def/0_87.png": {
       "sha256": "2a6ce2019a374078972b342f1d13d0f6e488dcd2ad0d2763e3702e8fc6a71114",
       "bytes": 3398,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellint.def/0_88.png": {
       "sha256": "49c7ae4c2970c64a75671024ace12e40f3d15e8b25fcc1c7bce27f004ab82878",
       "bytes": 2595,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellint.def/0_89.png": {
       "sha256": "b1900d2598e7291da0dd8a48590d217ceea2daa68e5570921bf5a19d684a0676",
       "bytes": 4428,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellint.def/0_90.png": {
       "sha256": "698695d4f0faeae4e02e5f8d3d83ce037225af2f3cedee089e2e51cc45d1ef23",
       "bytes": 3718,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellint.def/0_91.png": {
       "sha256": "3c595dc9d62d8d98b544ca26443d0b3e81cbdfdc0cffc84dfeb338eb1d533012",
       "bytes": 4547,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellint.def/0_92.png": {
-      "sha256": "ac53406f5f96df4a31d6866062ea203ae0e0f5f9d399fb55a5918bf12881cdb4",
-      "bytes": 4417,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "sha256": "67824d28ab8db1ea3d1edbf06ba722e7c8326c86e2c853e29eafcb47916a48b5",
+      "bytes": 4594,
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellint.def/0_93.png": {
       "sha256": "c137d08460e0844064022bf8ae3099f8fafd50d8690da39689c619144bd09d56",
       "bytes": 4053,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellint.def/0_94.png": {
       "sha256": "fe40c7cca37a3ffc8ddde77887da01f647784e8128cbc6ea052a7f0553226739",
       "bytes": 4335,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellint.def/0_95.png": {
       "sha256": "ff79b16c9723132361e34de28cd608b2f00e6b496b15e51a76a2266bf490f254",
       "bytes": 4437,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellint.def/0_96.png": {
       "sha256": "78bd4a35ebf0475e81e0e5140c158113d024ba05d8f6b9f1041b548d6bf844f5",
       "bytes": 4222,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellint.def/0_97.png": {
       "sha256": "8d18fc2569fdb6edcee8d340891d9e51c14451b0d353d69d5120216ef93a6390",
       "bytes": 3985,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellint.def/0_98.png": {
       "sha256": "a14144603e85cd589576f0499a614ef767ca550c6d1008984f77abe5bb087fec",
       "bytes": 4049,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellint.def/0_99.png": {
       "sha256": "d855df3ffa802bd572b991d7960b6e0f10eaf2166fbcf69a2b6bda3748f3328a",
       "bytes": 4235,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spells.def/0_100.png": {
       "sha256": "96894db07d375cca5a848b52c357ed5b6c6f24e0174ff2dc92f38097e062cea8",
       "bytes": 11773,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spells.def/0_101.png": {
       "sha256": "91a871159abb1a7f752665ee714408ae6e3e91b7d039423bc57cde04cdf97b22",
       "bytes": 10644,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spells.def/0_102.png": {
       "sha256": "3bac5a5527e4bb60b889007b18f37c0d36ecb8625082d1ef6b8c860527e3bff2",
       "bytes": 4498,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spells.def/0_103.png": {
       "sha256": "a613bed017f512d2bef66e3fe09f3943df3a7e09ad38ab61bfd43b32c26a50f8",
       "bytes": 9395,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spells.def/0_81.png": {
       "sha256": "de94fbcd1b82862f17287f18d5052e0907ba7e776cd73dfd8690791f0caa45bd",
       "bytes": 6975,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spells.def/0_82.png": {
       "sha256": "1f1c58dc37743d4248518f4baafd391b5f83541c14242749cf5cff8a939f4dd6",
       "bytes": 10079,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spells.def/0_83.png": {
       "sha256": "72bbfdd4dc647cfdc547b8dcd6308717aa592d626b2682029fa4dbf94e396f22",
       "bytes": 6615,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spells.def/0_84.png": {
       "sha256": "cf6c1cb33814e1e012964f037ef57c9c36aeb3b15b8cf8296634c2eec3d42da5",
       "bytes": 10320,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spells.def/0_85.png": {
       "sha256": "5d43696f8ba1072c41aac91550d024de172ea0a987efcd6172834f6cc7fc5228",
       "bytes": 6965,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spells.def/0_86.png": {
       "sha256": "b9cd36751e992999280a6a6aab719e26b421d99510b34a7be39391d02f8bcc73",
       "bytes": 6213,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spells.def/0_87.png": {
       "sha256": "0487761c6c15d3fc0463c6f5e20e43d9405fd01c1834e417d6da6de746a46492",
       "bytes": 7257,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spells.def/0_88.png": {
       "sha256": "dfafe40d1f746acf1460c3c2afdfa49f29b872d5da26f1a64516b7437d36140d",
       "bytes": 7784,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spells.def/0_89.png": {
       "sha256": "a65ffd680091e5c4b4ffe694a69367a535bd7c306ef3c8ea39734f0f01b167ff",
       "bytes": 4415,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spells.def/0_90.png": {
       "sha256": "153ca7cd9ebd6f84455a7ba76b53036db3586d25f93154a555635c9d79d97c39",
       "bytes": 7462,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spells.def/0_91.png": {
-      "sha256": "84720e31ca2e6308f638ca1a6d5ff97d02d88f59975ad7a2f9cad1d9777eaccd",
-      "bytes": 5197,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "sha256": "b977a3ce4698fea2c3e2a41a6f4e032f7d50992317e5bd0a14e3f289c4ba19b0",
+      "bytes": 7381,
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spells.def/0_91_.png": {
       "sha256": "b977a3ce4698fea2c3e2a41a6f4e032f7d50992317e5bd0a14e3f289c4ba19b0",
@@ -408,117 +393,117 @@
     "Data/Defs/spells.def/0_92.png": {
       "sha256": "13a34470bcff9818c4df5b706dce026b2123071e5f1028cab63905605791d7de",
       "bytes": 7273,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spells.def/0_93.png": {
       "sha256": "0f7ed149b7f2aac70ad60e49d6e9e4555b37293084c4d31917177466c3208da3",
       "bytes": 8100,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spells.def/0_94.png": {
       "sha256": "4f0a860abe06208ab9eb0de4d9ac9559c5c36d5e3f557b1bb673776098be7327",
       "bytes": 12888,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spells.def/0_95.png": {
       "sha256": "bc4ff42207fa0cad81efff1ee4a8110c80804a025805bc4233d64e1897c28635",
       "bytes": 9586,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spells.def/0_96.png": {
       "sha256": "01b658ed6a1bcfb85a251523f5e70a56b04bcb0b6b0447e14a7c3516b1db64f5",
       "bytes": 6398,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spells.def/0_97.png": {
       "sha256": "dc31c3e7fce5e37a312df02b1637d0d8f4f4f1dbbe51e9db70aa7c9701c9ca0b",
       "bytes": 11073,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spells.def/0_98.png": {
       "sha256": "59ed8c4932785bdec19fbb7453cdeb6b1c0e21bd3f56ff68112fe0786d59ba3a",
       "bytes": 12782,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spells.def/0_99.png": {
       "sha256": "080362c46c3a37dd30c54f019a77735b15ae597297654cb6344a7adac3669fb8",
       "bytes": 9703,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellscr.def/0_100.png": {
       "sha256": "1147b06e3772c3c2de0c07589e2e0cb600fb4e9e645dcfea8acf15712e4c17af",
       "bytes": 14238,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellscr.def/0_101.png": {
       "sha256": "c1ce268691761f4226a896219bbce72b0c0488df2cde2dc8aa4a612158f30bb3",
       "bytes": 14010,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellscr.def/0_102.png": {
       "sha256": "5eb648b52a60a26082a5a60c8e7bfa6ae84e773bcddec735c1123cd190ef37d5",
       "bytes": 6631,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellscr.def/0_103.png": {
       "sha256": "2b7a6011194268d94225e5dab9e859ba55735482e4cd5ad54f121bfd3b7c9b20",
       "bytes": 12948,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellscr.def/0_81.png": {
       "sha256": "15f2eecfd8c66cf401d4952df87903be609bc9143a276418334cfa38391d784e",
       "bytes": 8357,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellscr.def/0_82.png": {
       "sha256": "d0750779d928c9f72e1aae8fdfe0e3f971585e0a5cf75b777f20169978abdd1d",
       "bytes": 12121,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellscr.def/0_83.png": {
       "sha256": "29e63a921ae3baf19a88d57bd88e3bd547fe5390b029e1a1f925d6b63957a589",
       "bytes": 10216,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellscr.def/0_84.png": {
       "sha256": "b09d688236a806af295979fcfe5e3be62e11b4cb439a976958d9c305beea77f6",
       "bytes": 13649,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellscr.def/0_85.png": {
       "sha256": "6ec9c68fdc9b9e7a24dc302228d34b1b67146570bf581073b40675eafe99d479",
       "bytes": 9659,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellscr.def/0_86.png": {
       "sha256": "c4d094001ad23279ce6b4060b9f390cc03e88d1f57b0319ce7ed8118fb8f0bd3",
       "bytes": 9812,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellscr.def/0_87.png": {
       "sha256": "26003b821143a6c5b33e0986c415b0a763ff6f33b62277e005f1a27c0ce7fbdb",
       "bytes": 10780,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellscr.def/0_88.png": {
       "sha256": "9ffeb14677e78dc36dd1f5e668a03e0f3e7bdd7e8c942f0f0c083e6ffc6a7f38",
       "bytes": 11061,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellscr.def/0_89.png": {
       "sha256": "9b83b5c13c9b8678967b7d4cd21ca83190f21a99e6b7e6f6f5ad1e3da490dc1e",
       "bytes": 5776,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellscr.def/0_90.png": {
       "sha256": "a563ad5f94c9d4ee878ae32445b6591ee0c6a2a6ee81c948cbff01917c2bd53a",
       "bytes": 11543,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellscr.def/0_91.png": {
-      "sha256": "dab8c143395781e4f1d15c3e5eeaf7f5e32195835ca6296aa0c715247e2fa43e",
-      "bytes": 6944,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "sha256": "c5a25139948ed7472a3fd1b0716ae2c557eab4c2ff61fed4e2cbd4c1f6b74900",
+      "bytes": 11529,
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellscr.def/0_91_.png": {
       "sha256": "c5a25139948ed7472a3fd1b0716ae2c557eab4c2ff61fed4e2cbd4c1f6b74900",
@@ -527,67 +512,47 @@
     "Data/Defs/spellscr.def/0_92.png": {
       "sha256": "3215db34333524938c93f98812e249bf90fa96a459bc234a2e932a65814515a1",
       "bytes": 10336,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellscr.def/0_93.png": {
       "sha256": "9952a516fb932595aa3d4a218fbd29afc100077b0e3a1b679eac7669ee977aca",
       "bytes": 11711,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellscr.def/0_94.png": {
       "sha256": "5e746133152fcb4178ca7bbae7862b11af3afa2fd051068c4abffc52854123c6",
       "bytes": 14191,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellscr.def/0_95.png": {
       "sha256": "8d7a3624f0ffa5ab66853c7b4798f95c3cf644c3e51f82a62e1f9737403efbfe",
       "bytes": 12703,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellscr.def/0_96.png": {
       "sha256": "d59cc7fa1faf801a173138e89e98218fdeb30fab16732c3a4ff4f1ce4f1459ec",
       "bytes": 9999,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellscr.def/0_97.png": {
       "sha256": "04d81da778a11e125481b43f1104d503c9e2b0f0709dcc9f2b287ca654ce87f1",
       "bytes": 14235,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellscr.def/0_98.png": {
       "sha256": "4fbdf4016895d5bb9c7d5d1add78455bd2b380c8e3a9d5231e4d70b5eb4e4ca3",
       "bytes": 15701,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/Defs/spellscr.def/0_99.png": {
       "sha256": "d3633730908c74e4f4a4f17a8c34c2ad4ca8b77bc279d909e217c595cdaaae5f",
       "bytes": 10531,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
-    },
-    "Data/Defs/twcrport.def/0_124.bmp": {
-      "sha256": "f63dfac42d6f19f0900a27efa4c8881a203f14e50b9d79b7ee26b7bd75d3c1d2",
-      "bytes": 11318
-    },
-    "Data/Defs/twcrport.def/0_124.png": {
-      "sha256": "29b19a96693b30c8151736f78b9ee16e64d05c5115d51f54700bbda48d929b11",
-      "bytes": 8598
-    },
-    "Data/Defs/twcrport.def/0_124_.png": {
-      "sha256": "4fa744521f96e9da8480e3029d19659bdb0cfddaaaf3b80e84636790b49316b1",
-      "bytes": 10482
-    },
-    "Data/Defs/twcrport.def/0_126.png": {
-      "sha256": "7a5fc6be5c852cb420e2298279c716ad504358709907a3f33a238a36005702ec",
-      "bytes": 15050
-    },
-    "Data/Defs/twcrport.def/0_128.png": {
-      "sha256": "22ddc3ca82bd6d8bea55487a48ed30d4c506537f12d7b78a74c1476ad9195d15",
-      "bytes": 9316
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/ToxeosNative.pac": {
-      "sha256": "f7a61f0979de4ed6841b5b10c5fde9c83595d19a4e5ced860e8e2250db5143b6",
-      "bytes": 3397989,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "sha256": "e04bee4d6ce5c760405e827eb26a2c12bdbe0fc9fd82562621a28b507d780b35",
+      "bytes": 3526788,
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/ToxeosNative.snd": {
       "sha256": "c962cc0f7973063e65ddf1d54531b82c8d97bbf9b367c49e59e217310eb809e9",
@@ -596,462 +561,492 @@
     "Data/pcx/ACB099.png": {
       "sha256": "080362c46c3a37dd30c54f019a77735b15ae597297654cb6344a7adac3669fb8",
       "bytes": 9703,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/ACI100.png": {
       "sha256": "4b4ec0411d1491e9856c07eacd7bd5afe85536aeba69a4de52a0b04698bcb96d",
       "bytes": 4104,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/ACS099.png": {
       "sha256": "d3633730908c74e4f4a4f17a8c34c2ad4ca8b77bc279d909e217c595cdaaae5f",
       "bytes": 10531,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
+    },
+    "Data/pcx/CPrL122E.png": {
+      "sha256": "29b19a96693b30c8151736f78b9ee16e64d05c5115d51f54700bbda48d929b11",
+      "bytes": 8598,
+      "source": "ERA Spells0.7.2 update2026-10-30"
+    },
+    "Data/pcx/CPrL124E.png": {
+      "sha256": "7a5fc6be5c852cb420e2298279c716ad504358709907a3f33a238a36005702ec",
+      "bytes": 15050,
+      "source": "ERA Spells0.7.2 update2026-10-30"
+    },
+    "Data/pcx/CPrL126E.png": {
+      "sha256": "22ddc3ca82bd6d8bea55487a48ed30d4c506537f12d7b78a74c1476ad9195d15",
+      "bytes": 9316,
+      "source": "ERA Spells0.7.2 update2026-10-30"
+    },
+    "Data/pcx/CPrS122E.png": {
+      "sha256": "44f27e7df20006b9137fce92d2365b2ddc30db181aee8d1a41641ac56e2c7c62",
+      "bytes": 4266,
+      "source": "ERA Spells0.7.2 update2026-10-30"
+    },
+    "Data/pcx/CPrS124E.png": {
+      "sha256": "4e1c13398bd2248532ec8ddcbcb348552e17be10301e4db7341bccbb176e2724",
+      "bytes": 4266,
+      "source": "ERA Spells0.7.2 update2026-10-30"
+    },
+    "Data/pcx/CPrS126E.png": {
+      "sha256": "c19b4b40a947ebb9b7850dbfb34d8d5379708b26c7c8aa257e2378c5cb9abfe6",
+      "bytes": 1844,
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/ELB97.png": {
       "sha256": "dc31c3e7fce5e37a312df02b1637d0d8f4f4f1dbbe51e9db70aa7c9701c9ca0b",
       "bytes": 11073,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/ELB98.png": {
       "sha256": "59ed8c4932785bdec19fbb7453cdeb6b1c0e21bd3f56ff68112fe0786d59ba3a",
       "bytes": 12782,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/ELI97.png": {
       "sha256": "a14144603e85cd589576f0499a614ef767ca550c6d1008984f77abe5bb087fec",
       "bytes": 4049,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/ELI98.png": {
       "sha256": "d855df3ffa802bd572b991d7960b6e0f10eaf2166fbcf69a2b6bda3748f3328a",
       "bytes": 4235,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/ELS97.png": {
       "sha256": "04d81da778a11e125481b43f1104d503c9e2b0f0709dcc9f2b287ca654ce87f1",
       "bytes": 14235,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/ELS98.png": {
       "sha256": "4fbdf4016895d5bb9c7d5d1add78455bd2b380c8e3a9d5231e4d70b5eb4e4ca3",
       "bytes": 15701,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Si81Fear.png": {
       "sha256": "b01718d471472ad12350580022efc360afd405b6d7f0469e239c4ecb4685ecce",
       "bytes": 3411,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Si82Clou.png": {
       "sha256": "999b81d95f8cb700e6e88d2174cd0348f7dff3a12b5939cee2f482ebff28c317",
       "bytes": 4468,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Si83Blow.png": {
       "sha256": "b9aaffa1da52460636811a7d88686f41d5846bc4388effd45a5e4d49748ee34f",
       "bytes": 4283,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Si84DrLf.png": {
       "sha256": "6bd31790665f842a1023ef2738b249e5465b054c5b60b7e5fe871cda5209326f",
       "bytes": 3945,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Si85Sprt.png": {
       "sha256": "85649e28a53ed65b162c5d90316027bb6a0027d51adef32d409de07352883c33",
       "bytes": 4075,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Si86Melm.png": {
       "sha256": "2a6ce2019a374078972b342f1d13d0f6e488dcd2ad0d2763e3702e8fc6a71114",
       "bytes": 3398,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Si87Fbrd.png": {
       "sha256": "49c7ae4c2970c64a75671024ace12e40f3d15e8b25fcc1c7bce27f004ab82878",
       "bytes": 2595,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Si88Mobi.png": {
       "sha256": "b1900d2598e7291da0dd8a48590d217ceea2daa68e5570921bf5a19d684a0676",
       "bytes": 4428,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Si89Magi.png": {
       "sha256": "698695d4f0faeae4e02e5f8d3d83ce037225af2f3cedee089e2e51cc45d1ef23",
       "bytes": 3718,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Si90Tghn.png": {
       "sha256": "3c595dc9d62d8d98b544ca26443d0b3e81cbdfdc0cffc84dfeb338eb1d533012",
       "bytes": 4547,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Si91Claw.png": {
-      "sha256": "ac53406f5f96df4a31d6866062ea203ae0e0f5f9d399fb55a5918bf12881cdb4",
-      "bytes": 4417,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "sha256": "67824d28ab8db1ea3d1edbf06ba722e7c8326c86e2c853e29eafcb47916a48b5",
+      "bytes": 4594,
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Si92Inci.png": {
       "sha256": "c137d08460e0844064022bf8ae3099f8fafd50d8690da39689c619144bd09d56",
       "bytes": 4053,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Si93Expl.png": {
       "sha256": "fe40c7cca37a3ffc8ddde77887da01f647784e8128cbc6ea052a7f0553226739",
       "bytes": 4335,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Si94Hour.png": {
       "sha256": "ff79b16c9723132361e34de28cd608b2f00e6b496b15e51a76a2266bf490f254",
       "bytes": 4437,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Si95Gold.png": {
       "sha256": "78bd4a35ebf0475e81e0e5140c158113d024ba05d8f6b9f1041b548d6bf844f5",
       "bytes": 4222,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Sm81Fear.png": {
       "sha256": "15f2eecfd8c66cf401d4952df87903be609bc9143a276418334cfa38391d784e",
       "bytes": 8357,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Sm82Clou.png": {
       "sha256": "d0750779d928c9f72e1aae8fdfe0e3f971585e0a5cf75b777f20169978abdd1d",
       "bytes": 12121,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Sm83Blow.png": {
       "sha256": "29e63a921ae3baf19a88d57bd88e3bd547fe5390b029e1a1f925d6b63957a589",
       "bytes": 10216,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Sm84DrLf.png": {
       "sha256": "b09d688236a806af295979fcfe5e3be62e11b4cb439a976958d9c305beea77f6",
       "bytes": 13649,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Sm85Sprt.png": {
       "sha256": "6ec9c68fdc9b9e7a24dc302228d34b1b67146570bf581073b40675eafe99d479",
       "bytes": 9659,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Sm86Melm.png": {
       "sha256": "c4d094001ad23279ce6b4060b9f390cc03e88d1f57b0319ce7ed8118fb8f0bd3",
       "bytes": 9812,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Sm87Fbrd.png": {
       "sha256": "26003b821143a6c5b33e0986c415b0a763ff6f33b62277e005f1a27c0ce7fbdb",
       "bytes": 10780,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Sm88Mobi.png": {
       "sha256": "9ffeb14677e78dc36dd1f5e668a03e0f3e7bdd7e8c942f0f0c083e6ffc6a7f38",
       "bytes": 11061,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Sm89Magi.png": {
       "sha256": "9b83b5c13c9b8678967b7d4cd21ca83190f21a99e6b7e6f6f5ad1e3da490dc1e",
       "bytes": 5776,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Sm90Tghn.png": {
       "sha256": "a563ad5f94c9d4ee878ae32445b6591ee0c6a2a6ee81c948cbff01917c2bd53a",
       "bytes": 11543,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Sm91Claw.png": {
-      "sha256": "dab8c143395781e4f1d15c3e5eeaf7f5e32195835ca6296aa0c715247e2fa43e",
-      "bytes": 6944,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "sha256": "c5a25139948ed7472a3fd1b0716ae2c557eab4c2ff61fed4e2cbd4c1f6b74900",
+      "bytes": 11529,
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Sm92Inci.png": {
       "sha256": "3215db34333524938c93f98812e249bf90fa96a459bc234a2e932a65814515a1",
       "bytes": 10336,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Sm93Expl.png": {
       "sha256": "9952a516fb932595aa3d4a218fbd29afc100077b0e3a1b679eac7669ee977aca",
       "bytes": 11711,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Sm94Hour.png": {
       "sha256": "5e746133152fcb4178ca7bbae7862b11af3afa2fd051068c4abffc52854123c6",
       "bytes": 14191,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Sm95Gold.png": {
       "sha256": "8d7a3624f0ffa5ab66853c7b4798f95c3cf644c3e51f82a62e1f9737403efbfe",
       "bytes": 12703,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Sm99all.png": {
       "sha256": "d59cc7fa1faf801a173138e89e98218fdeb30fab16732c3a4ff4f1ce4f1459ec",
       "bytes": 9999,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Sp81Fear.png": {
       "sha256": "de94fbcd1b82862f17287f18d5052e0907ba7e776cd73dfd8690791f0caa45bd",
       "bytes": 6975,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Sp82Clou.png": {
       "sha256": "1f1c58dc37743d4248518f4baafd391b5f83541c14242749cf5cff8a939f4dd6",
       "bytes": 10079,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Sp83Blow.png": {
       "sha256": "72bbfdd4dc647cfdc547b8dcd6308717aa592d626b2682029fa4dbf94e396f22",
       "bytes": 6615,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Sp84DrLf.png": {
       "sha256": "cf6c1cb33814e1e012964f037ef57c9c36aeb3b15b8cf8296634c2eec3d42da5",
       "bytes": 10320,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Sp85Sprt.png": {
       "sha256": "5d43696f8ba1072c41aac91550d024de172ea0a987efcd6172834f6cc7fc5228",
       "bytes": 6965,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Sp86Melm.png": {
       "sha256": "b9cd36751e992999280a6a6aab719e26b421d99510b34a7be39391d02f8bcc73",
       "bytes": 6213,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Sp87Fbrd.png": {
       "sha256": "0487761c6c15d3fc0463c6f5e20e43d9405fd01c1834e417d6da6de746a46492",
       "bytes": 7257,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Sp88Mobi.png": {
       "sha256": "dfafe40d1f746acf1460c3c2afdfa49f29b872d5da26f1a64516b7437d36140d",
       "bytes": 7784,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Sp89Magi.png": {
       "sha256": "a65ffd680091e5c4b4ffe694a69367a535bd7c306ef3c8ea39734f0f01b167ff",
       "bytes": 4415,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Sp90Tghn.png": {
       "sha256": "153ca7cd9ebd6f84455a7ba76b53036db3586d25f93154a555635c9d79d97c39",
       "bytes": 7462,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Sp91Claw.png": {
-      "sha256": "84720e31ca2e6308f638ca1a6d5ff97d02d88f59975ad7a2f9cad1d9777eaccd",
-      "bytes": 5197,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "sha256": "b977a3ce4698fea2c3e2a41a6f4e032f7d50992317e5bd0a14e3f289c4ba19b0",
+      "bytes": 7381,
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Sp92Inci.png": {
       "sha256": "13a34470bcff9818c4df5b706dce026b2123071e5f1028cab63905605791d7de",
       "bytes": 7273,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Sp93Expl.png": {
       "sha256": "0f7ed149b7f2aac70ad60e49d6e9e4555b37293084c4d31917177466c3208da3",
       "bytes": 8100,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Sp94Hour.png": {
       "sha256": "4f0a860abe06208ab9eb0de4d9ac9559c5c36d5e3f557b1bb673776098be7327",
       "bytes": 12888,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/Sp95Gold.png": {
       "sha256": "bc4ff42207fa0cad81efff1ee4a8110c80804a025805bc4233d64e1897c28635",
       "bytes": 9586,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/TxAdB100.png": {
       "sha256": "96894db07d375cca5a848b52c357ed5b6c6f24e0174ff2dc92f38097e062cea8",
       "bytes": 11773,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/TxAdB101.png": {
       "sha256": "91a871159abb1a7f752665ee714408ae6e3e91b7d039423bc57cde04cdf97b22",
       "bytes": 10644,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/TxAdI100.png": {
-      "sha256": "42460c346d7075db9a5e00292896ba3d19d7cd8f3ea1f529e064b98ba1ce8ee0",
-      "bytes": 4521,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "sha256": "4a94d372bdec304ddd1d57866015f7dce22873c6200b25938a9ef755c6ea69b2",
+      "bytes": 4504,
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/TxAdI101.png": {
       "sha256": "99badbb1df98ac967eddb08c6301955b50fc4ffb1bedc38096440132206cff0f",
       "bytes": 4453,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/TxAdN100.png": {
       "sha256": "e20c9c4f2a3a29c97dd9e52840a660e71112847d818c61572b2adc0bba6618fc",
       "bytes": 8592,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/TxAdN101.png": {
       "sha256": "febdc40f47ef7ee1cdeb0a1bd9b02e088675bccc6929038ff939c02e88b95394",
       "bytes": 8034,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/TxAdS100.png": {
       "sha256": "1147b06e3772c3c2de0c07589e2e0cb600fb4e9e645dcfea8acf15712e4c17af",
       "bytes": 14238,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/TxAdS101.png": {
       "sha256": "c1ce268691761f4226a896219bbce72b0c0488df2cde2dc8aa4a612158f30bb3",
       "bytes": 14010,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/TxFVB102.png": {
       "sha256": "3bac5a5527e4bb60b889007b18f37c0d36ecb8625082d1ef6b8c860527e3bff2",
       "bytes": 4498,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/TxFVB103.png": {
       "sha256": "a613bed017f512d2bef66e3fe09f3943df3a7e09ad38ab61bfd43b32c26a50f8",
       "bytes": 9395,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/TxFVI102.png": {
       "sha256": "e340d9ecf574d0acdb70b406b78003bcdffe39c361d497a8675e2049f2aca7f0",
       "bytes": 2565,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/TxFVI103.png": {
       "sha256": "94d3548d92e81bd3ec5ae5f464c67aebecd7b5c9b786fcf7425927fee9c43549",
       "bytes": 4303,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/TxFVN102.png": {
       "sha256": "d6e7a48454f9c9decb9a41045b6d9263482d3520356d359701dfef795f8a170b",
       "bytes": 7784,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/TxFVN103.png": {
-      "sha256": "18408042af9136d3108b397460df9a103c0544c615846d6125138918d58283bd",
-      "bytes": 7159,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "sha256": "1e47d2d223d6e0901a3d175030afab4f79b4d0c67b3fa73cef239fd5791ad3e4",
+      "bytes": 7645,
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/TxFVS102.png": {
       "sha256": "5eb648b52a60a26082a5a60c8e7bfa6ae84e773bcddec735c1123cd190ef37d5",
       "bytes": 6631,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/TxFVS103.png": {
       "sha256": "2b7a6011194268d94225e5dab9e859ba55735482e4cd5ad54f121bfd3b7c9b20",
       "bytes": 12948,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/WSB096.png": {
       "sha256": "01b658ed6a1bcfb85a251523f5e70a56b04bcb0b6b0447e14a7c3516b1db64f5",
       "bytes": 6398,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/WSI097.png": {
       "sha256": "8d18fc2569fdb6edcee8d340891d9e51c14451b0d353d69d5120216ef93a6390",
       "bytes": 3985,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/txsb081.png": {
       "sha256": "3f192511bfd25b729152c9c5434c4c72e7aa43dd8726efe105b8171adc464872",
       "bytes": 7234,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/txsb082.png": {
       "sha256": "4650966971c59e6ff01346c4a2141c1bbbfecb0a3932d9e075fe5334e321c070",
       "bytes": 7526,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/txsb083.png": {
       "sha256": "852a8ababd8721649af381e77d0230b3f58a28249b62ba54d09003ffb988b65b",
       "bytes": 3672,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/txsb084.png": {
       "sha256": "131847797da2e7d8c6398b9ce42b439b2f8716631e2327bb99693f847fdcde61",
       "bytes": 9204,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/txsb085.png": {
       "sha256": "dbfc8765c891f30c747117382bf8e420e4663c8563dac268dd9b7aadf3901fc6",
       "bytes": 7585,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/txsb086.png": {
       "sha256": "33a85f5121f02004287d1b1f5c6664178f3e823d4ac237c9cbbddac4246ecc0e",
       "bytes": 7947,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/txsb087.png": {
       "sha256": "dd8b414ae2575448920121ec6804b02a8b809c6b88e58be77bc38d9738625d1a",
       "bytes": 8802,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/txsb088.png": {
       "sha256": "abbc1cedcd97dcb3657ce07f93280a797acef2191c71b03d1654b3c074a087a1",
       "bytes": 8408,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/txsb089.png": {
       "sha256": "737324bbb62752b4dcdf6a505a14913378284a30f1ff8e8e9c1bc142d10edc8d",
       "bytes": 9283,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/txsb090.png": {
       "sha256": "d1f187e1c585fa5caa4358b6a6ba5755fde5b01f3a74a4b7828bdf465b3a1bfb",
       "bytes": 3868,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/txsb091.png": {
-      "sha256": "196cbdeefb0778b272cc9e1fc159c85c53137ca47dbc88696e461c4e510e9f4e",
-      "bytes": 9193,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "sha256": "94472f358c1ce4835086945902a36889ab614a193529e639cc80e6b2d19c9a4e",
+      "bytes": 8349,
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/txsb092.png": {
       "sha256": "4fd937958f29db7003fcfdfd8cb198c7bcb43760f0fa582ff39da96899e3ad2f",
       "bytes": 7968,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/txsb093.png": {
       "sha256": "14137ce19d409779d4aaad19a095fcab4a3d558511c8b6e7dd2688ba6e694ffe",
       "bytes": 10038,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/txsb094.png": {
       "sha256": "7d46ab153fc1d33e5907af047dfef27b02227000fb0292892fa98690b62ab4e9",
       "bytes": 10408,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/txsb095.png": {
       "sha256": "d881ebc0b4d183e56126fb47e07778da574bb19ff222f2761d82b833f646e188",
       "bytes": 8482,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/txsb096.png": {
       "sha256": "67ad0d85ca5874afb0c6b990106cdf7f89c9f52fc83a7c63d571754ec139417e",
       "bytes": 8618,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/txsb097.png": {
       "sha256": "a5ac0e511898a7ef9fc818b8355d98791c5f406c8d6ce09f7723eebd9394fedf",
       "bytes": 8617,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/txsb098.png": {
       "sha256": "67432df5419c29b3129083f6c6e3ef0fc689e8222dfbc4134adb56c7af27b3e7",
       "bytes": 9768,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/pcx/txsb099.png": {
       "sha256": "31649bb073c0969d5b05200d05ab0638f24cdea0bfcdd2745a0998d60626fd1d",
       "bytes": 8075,
-      "source": "Current story Data/Defs canonical graphics2026-10-27"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/s/zz_tox_gem_spell_popup.erm": {
       "sha256": "166754489c67d9a54ef86f5902814e5f7e2c9ec7f6561206c390b635ef31a993",
@@ -1086,9 +1081,9 @@
       "bytes": 1491968
     },
     "EraPlugins/ToxeosBlizzard.era": {
-      "sha256": "5f4f2efaea3807226f7d93e4f0771c41ebee3a2a230bed981c0a2c1a4febaaf4",
+      "sha256": "eb14e51f5a91e47471c5d99f6a2979a82e01e36d5d21e90533e62116ef31790c",
       "bytes": 309248,
-      "source": "Author Screens and ranked popup corrections2026-10-24"
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Lang/ru/toxeos_native.json": {
       "sha256": "55755dc740fc0cd6041bb79572d83a462fa30d51ad76b7553e8a13340007e7db",
@@ -1101,14 +1096,14 @@
       "source": "Author Screens and ranked popup corrections2026-10-24"
     },
     "README.md": {
-      "sha256": "8883f1d8d64911b7330cf12b7ba7dd75efc78b8b586204bda8388cb6093ff77c",
-      "bytes": 6577,
-      "source": "Author Screens and ranked popup corrections2026-10-24"
+      "sha256": "a25c411d82695b16a528895dc469895be6129df74ce7d4c07e856d7818876945",
+      "bytes": 6602,
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "README.ru.md": {
-      "sha256": "530c33e099967dcbc2adbc172b3277d5b29319ece092a6335437011ada1fb9c2",
-      "bytes": 11132,
-      "source": "Author Screens and ranked popup corrections2026-10-24"
+      "sha256": "fee1fe1b3f5a7bbe573f33c6a92c828208a32a1fd18846c563c632bc6fd269a8",
+      "bytes": 11186,
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Screens/1.png": {
       "sha256": "e96939b784d17d35dd3b120324a3b0f0652df1476c219a317e84a430ca351196",
@@ -1165,19 +1160,19 @@
       "bytes": 310005
     },
     "mod.json": {
-      "sha256": "9229f0c091cfc6a770dbaf032a8700762509e8d4f39fb7d14029b1405f6b84f7",
-      "bytes": 706,
-      "source": "0.7.1 approved Vampirism bat artwork"
+      "sha256": "88f0228de722c295f01820981c437deacc7e1ebfffed61c0693d4abf7200bb9e",
+      "bytes": 681,
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "readme.txt": {
-      "sha256": "8883f1d8d64911b7330cf12b7ba7dd75efc78b8b586204bda8388cb6093ff77c",
-      "bytes": 6577,
-      "source": "Author Screens and ranked popup corrections2026-10-24"
+      "sha256": "a25c411d82695b16a528895dc469895be6129df74ce7d4c07e856d7818876945",
+      "bytes": 6602,
+      "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "readmeru.txt": {
-      "sha256": "530c33e099967dcbc2adbc172b3277d5b29319ece092a6335437011ada1fb9c2",
-      "bytes": 11132,
-      "source": "Author Screens and ranked popup corrections2026-10-24"
+      "sha256": "fee1fe1b3f5a7bbe573f33c6a92c828208a32a1fd18846c563c632bc6fd269a8",
+      "bytes": 11186,
+      "source": "ERA Spells0.7.2 update2026-10-30"
     }
   }
 }

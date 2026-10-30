@@ -9,9 +9,9 @@ New combat magic for Heroes III ERA: damage spells, control, protective effects 
 - **ACM**: includes a fix for access to spell descriptions and parameters. Full Master/Grandmaster gameplay verification is pending; additional high-tier mechanics for the new spells are not included.
 - Requires **ERA/WoG and ERA Erm Framework**. Do not combine with story Toxeos or another mod replacing the same spell tables.
 
-## Latest update — 0.7.1
+## Latest update — 0.7.2
 
-Vampirism now uses the approved bat artwork in all four icon formats; spell mechanics are unchanged.
+Fixed two-target dragon breath, refreshed spell icons and strengthened Strength. Shared game DLLs do not need replacement.
 
 Four new spells, updated artwork and sounds, revised balance and compact descriptions. Third-party generators can read live map bans through the included API/SDK.
 
@@ -59,7 +59,7 @@ Four new spells, updated artwork and sounds, revised balance and compact descrip
 
 - **Mobility** — Adds 300 movement points. A battle victory is required between repeated casts that day.
 
-- **Strength** — A 3-round Water shield absorbing 9 × Spell Power + 9/9/18/27 damage.
+- **Strength** — A 3-round Water shield absorbing 17 × Spell Power + 10/10/20/45 damage.
 
 - **Vampirism** — Drains 15/20/25/30% damage; maximum Health is reduced by 25/20/15/10%. Cure removes the effect. Healing plays the native Vampire Lord life-drain effect.
 
