@@ -1,8 +1,8 @@
 {
-  "version": "0.7.2",
+  "version": "0.7.3",
   "gameplay_scope": "Current author-maintained ERA Spells; author approved Survey miniature and supplied current spellbook screenshots",
   "automated": {
-    "standalone_callback_checks": 44239,
+    "standalone_callback_checks": 44886,
     "story_callback_checks": 44132,
     "codec_state_checks": 474,
     "editor_spell_ids": [
@@ -50,5 +50,16 @@
     "requires_shared_patcher_update": false,
     "isolated_native_test": "1000 cycles /4000 calls passed",
     "live_game_retest": false
+  },
+  "magog_action_end": {
+    "crash_rva": "0x4265",
+    "active_stack_value": 1,
+    "repair": "Validate native stack membership before active-stack dereference at3 existing reads",
+    "no_shared_dll_update": true,
+    "no_new_hooks": true,
+    "live_game_retest": false,
+    "actual_binary_checks_per_build": 28813,
+    "exact_old_crash_reproduced": true,
+    "standalone_callback_checks": 44886
   }
 }

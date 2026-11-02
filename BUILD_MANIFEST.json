@@ -1,25 +1,25 @@
 {
-  "version": "0.7.2",
-  "status": "0.7.2: native breath hook compatibility, current story spell graphics, Strength17power, native game creature banks",
+  "version": "0.7.3",
+  "status": "0.7.3: scoped Magog quick-battle active-stack pointer crash fix;0.7.2 content preserved",
   "files": {
     ".gitattributes": {
       "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992",
       "bytes": 9
     },
     "CHANGELOG.md": {
-      "sha256": "a817fff4d4af5e57ebef4d563504fbbb569ddd86f144b0e117e9fa29829fc012",
-      "bytes": 7095,
-      "source": "ERA Spells0.7.2 update2026-10-30"
+      "sha256": "3d223283f51954f529f198e204937a9b636b999d7473e3e8d224876507e5b742",
+      "bytes": 7514,
+      "source": "ERA Spells0.7.3 Magog crash fix2026-11-03"
     },
     "CHANGELOG.ru.md": {
-      "sha256": "40c485e5b4816cc3a25980e9846580055bdc3292c073ce3eb1c0ebee93b4362d",
-      "bytes": 12097,
-      "source": "ERA Spells0.7.2 update2026-10-30"
+      "sha256": "a5714fa24744e409f4ae8832bc48ed76020349607ce60f3c80f36ede7183e02c",
+      "bytes": 12854,
+      "source": "ERA Spells0.7.3 Magog crash fix2026-11-03"
     },
     "COMPATIBILITY.json": {
-      "sha256": "99091810f149f1cf051d0b6e77cebdac267ba9823a1ae746ccebcc3ce39bde5c",
-      "bytes": 1082,
-      "source": "ERA Spells0.7.2 update2026-10-30"
+      "sha256": "f8d95f61ec70f13d50a54ee33c8db931a50b5b6462bf25366e7fecb9abb70022",
+      "bytes": 1549,
+      "source": "ERA Spells0.7.3 Magog crash fix2026-11-03"
     },
     "Data/Defs/invis.def/0_0.png": {
       "sha256": "9000b3a07d4dc036034b73b91c0873a1845e56bbaada09312823d67db0cdd3b8",
@@ -1081,9 +1081,9 @@
       "bytes": 1491968
     },
     "EraPlugins/ToxeosBlizzard.era": {
-      "sha256": "eb14e51f5a91e47471c5d99f6a2979a82e01e36d5d21e90533e62116ef31790c",
+      "sha256": "c8c55330e24440c3b4f8410ce34905f3246a5a8819fc05e56d21e8b70463ebc9",
       "bytes": 309248,
-      "source": "ERA Spells0.7.2 update2026-10-30"
+      "source": "ERA Spells0.7.3 Magog crash fix2026-11-03"
     },
     "Lang/ru/toxeos_native.json": {
       "sha256": "55755dc740fc0cd6041bb79572d83a462fa30d51ad76b7553e8a13340007e7db",
@@ -1096,14 +1096,14 @@
       "source": "Author Screens and ranked popup corrections2026-10-24"
     },
     "README.md": {
-      "sha256": "a25c411d82695b16a528895dc469895be6129df74ce7d4c07e856d7818876945",
-      "bytes": 6602,
-      "source": "ERA Spells0.7.2 update2026-10-30"
+      "sha256": "87abb4b231e4e330a5a60c4189ada0c0561f721c18f96b70eb9ffd27145abd3a",
+      "bytes": 6500,
+      "source": "ERA Spells0.7.3 Magog crash fix2026-11-03"
     },
     "README.ru.md": {
-      "sha256": "fee1fe1b3f5a7bbe573f33c6a92c828208a32a1fd18846c563c632bc6fd269a8",
-      "bytes": 11186,
-      "source": "ERA Spells0.7.2 update2026-10-30"
+      "sha256": "1dbb626d43f959332d7f5fdea5539ce3d20c5dd38935fc29c36cbd640e184928",
+      "bytes": 11001,
+      "source": "ERA Spells0.7.3 Magog crash fix2026-11-03"
     },
     "Screens/1.png": {
       "sha256": "e96939b784d17d35dd3b120324a3b0f0652df1476c219a317e84a430ca351196",
@@ -1160,19 +1160,19 @@
       "bytes": 310005
     },
     "mod.json": {
-      "sha256": "88f0228de722c295f01820981c437deacc7e1ebfffed61c0693d4abf7200bb9e",
+      "sha256": "6f69d3fa184422e834b37969c38ea6c0126393f4bf732386f6c8376d572ddc81",
       "bytes": 681,
-      "source": "ERA Spells0.7.2 update2026-10-30"
+      "source": "ERA Spells0.7.3 Magog crash fix2026-11-03"
     },
     "readme.txt": {
-      "sha256": "a25c411d82695b16a528895dc469895be6129df74ce7d4c07e856d7818876945",
-      "bytes": 6602,
-      "source": "ERA Spells0.7.2 update2026-10-30"
+      "sha256": "87abb4b231e4e330a5a60c4189ada0c0561f721c18f96b70eb9ffd27145abd3a",
+      "bytes": 6500,
+      "source": "ERA Spells0.7.3 Magog crash fix2026-11-03"
     },
     "readmeru.txt": {
-      "sha256": "fee1fe1b3f5a7bbe573f33c6a92c828208a32a1fd18846c563c632bc6fd269a8",
-      "bytes": 11186,
-      "source": "ERA Spells0.7.2 update2026-10-30"
+      "sha256": "1dbb626d43f959332d7f5fdea5539ce3d20c5dd38935fc29c36cbd640e184928",
+      "bytes": 11001,
+      "source": "ERA Spells0.7.3 Magog crash fix2026-11-03"
     }
   }
 }

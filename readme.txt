@@ -9,11 +9,9 @@ New combat magic for Heroes III ERA: damage spells, control, protective effects 
 - **ACM**: includes a fix for access to spell descriptions and parameters. Full Master/Grandmaster gameplay verification is pending; additional high-tier mechanics for the new spells are not included.
 - Requires **ERA/WoG and ERA Erm Framework**. Do not combine with story Toxeos or another mod replacing the same spell tables.
 
-## Latest update — 0.7.2
+## Latest update — 0.7.3
 
-Fixed two-target dragon breath, refreshed spell icons and strengthened Strength. Shared game DLLs do not need replacement.
-
-Four new spells, updated artwork and sounds, revised balance and compact descriptions. Third-party generators can read live map bans through the included API/SDK.
+Fixed the crash after Magog shots in quick battle by validating the active-stack pointer. Version 0.7.3 adds no spells and changes no balance. Shared game DLLs do not need replacement.
 
 ## Spells
 

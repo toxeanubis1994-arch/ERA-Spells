@@ -1,5 +1,11 @@
 # ERA Spells — release history
 
+## 0.7.3
+
+- Fixed an invalid active-stack pointer access after Magog area shots, reported during quick battle (ToxeosBlizzard+0x4265).
+- Added the same validation to Rampage attack handling and the visual anchor fallback. Existing spell mechanics, balance, artwork and the dragon-breath fix are preserved.
+- Corrected the latest-update summary: this release adds no spells. No shared game DLL replacement is required.
+
 ## 0.7.2
 
 - Fixed the dragon-breath crash when an attack hits two stacks. The fix is included in ERA Spells; no replacement of patcher_x86.dll or other mods is needed.
