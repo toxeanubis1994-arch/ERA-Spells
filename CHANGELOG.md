@@ -1,5 +1,9 @@
 # ERA Spells — release history
 
+## 0.7.5
+
+- Fixed Vampirism healing for circular and cone-shaped melee attacks. Healing is calculated from the health actually lost by the selected primary target.
+
 ## 0.7.4
 
 - Fixed the missing Flame Spirit, Ice Dragon and Earth Roots portraits: six PNG frames now use ERA's Data/Defs frame-override paths. The game's creature portrait banks are preserved.

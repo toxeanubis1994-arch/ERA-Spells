@@ -9,9 +9,9 @@ New combat magic for Heroes III ERA: damage spells, control, protective effects 
 - **ACM**: includes a fix for access to spell descriptions and parameters. Full Master/Grandmaster gameplay verification is pending; additional high-tier mechanics for the new spells are not included.
 - Requires **ERA/WoG and ERA Erm Framework**. Do not combine with story Toxeos or another mod replacing the same spell tables.
 
-## Latest update — 0.7.4
+## Latest update — 0.7.5
 
-Fixed summon portrait frame paths. Mobility and Survey no longer reject school mastery above expert, and rejected casts record their reason in the log. Vampirism mechanics are unchanged.
+Fixed Vampirism healing for circular and cone-shaped melee attacks. Healing is calculated from the health actually lost by the selected primary target.
 
 ## Spells
 
@@ -59,7 +59,7 @@ Fixed summon portrait frame paths. Mobility and Survey no longer reject school m
 
 - **Strength** — A 3-round Water shield absorbing 17 × Spell Power + 10/10/20/45 damage.
 
-- **Vampirism** — Drains 15/20/25/30% damage; maximum Health is reduced by 25/20/15/10%. Cure removes the effect. Healing plays the native Vampire Lord life-drain effect.
+- **Vampirism** — Drains 15/20/25/30% of damage dealt to the primary living target in melee; maximum Health is reduced by 25/20/15/10%. Cure removes the effect. Healing plays the native Vampire Lord life-drain effect.
 
 ## Acquisition and Map Editor
 

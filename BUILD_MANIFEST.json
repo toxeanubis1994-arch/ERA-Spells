@@ -1,25 +1,25 @@
 {
-  "version": "0.7.4",
-  "status": "0.7.4: summon portrait frame paths and adventure extended mastery/logging; existing core/mechanics preserved",
+  "version": "0.7.5",
+  "status": "0.7.5: fixed primary-target Vampirism healing for area melee attacks",
   "files": {
     ".gitattributes": {
       "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992",
       "bytes": 9
     },
     "CHANGELOG.md": {
-      "sha256": "27a581ec990864929ad6ab090b36f3e57808ca4c0f05ef59263059ea1e1264ca",
-      "bytes": 7994,
-      "source": "ERA Spells0.7.4 targeted fixes2026-11-05"
+      "sha256": "d39065320e5767a360ba6e60c8eebb1bf643144bde3b25bb63905970283e682b",
+      "bytes": 8159,
+      "source": "ERA Spells0.7.5 Vampirism fix2026-11-05"
     },
     "CHANGELOG.ru.md": {
-      "sha256": "91ffc5ce1df9fdaa7e44aa0b7ad1ccbd9ddf22ccbf09ff209f8367ed17fb44c3",
-      "bytes": 13711,
-      "source": "ERA Spells0.7.4 targeted fixes2026-11-05"
+      "sha256": "4ea58dd6539bc0d4d4e419e9f3c7a4144490f73a4dcb72d50f5c648623c01d6f",
+      "bytes": 14017,
+      "source": "ERA Spells0.7.5 Vampirism fix2026-11-05"
     },
     "COMPATIBILITY.json": {
-      "sha256": "2c23e528687bdfeb1122ac5957ab4c9abd90d0127a2ebf3754c097ec480c3024",
-      "bytes": 2188,
-      "source": "ERA Spells0.7.4 targeted fixes2026-11-05"
+      "sha256": "f273d1af0e64ab8b43bfe27fb616df21f7f1791039a6fb7f9829a8d63605af97",
+      "bytes": 2501,
+      "source": "ERA Spells0.7.5 Vampirism fix2026-11-05"
     },
     "Data/Defs/invis.def/0_0.png": {
       "sha256": "9000b3a07d4dc036034b73b91c0873a1845e56bbaada09312823d67db0cdd3b8",
@@ -1082,9 +1082,9 @@
       "bytes": 1491968
     },
     "EraPlugins/ToxeosBlizzard.era": {
-      "sha256": "c8c55330e24440c3b4f8410ce34905f3246a5a8819fc05e56d21e8b70463ebc9",
-      "bytes": 309248,
-      "source": "ERA Spells0.7.3 Magog crash fix2026-11-03"
+      "sha256": "8e1745b89e4b6301e4768166065237ef7dc89aaeadf729d4b170b11f7df16807",
+      "bytes": 309760,
+      "source": "ERA Spells0.7.5 Vampirism fix2026-11-05"
     },
     "Lang/ru/toxeos_native.json": {
       "sha256": "55755dc740fc0cd6041bb79572d83a462fa30d51ad76b7553e8a13340007e7db",
@@ -1097,14 +1097,14 @@
       "source": "Author Screens and ranked popup corrections2026-10-24"
     },
     "README.md": {
-      "sha256": "b32e9cb53f3aa2ea4e3955e52c7433b9b969aab5b3077897c916f757118e29de",
-      "bytes": 6502,
-      "source": "ERA Spells0.7.4 targeted fixes2026-11-05"
+      "sha256": "b83d6b8a6bdafb8eb3de50dd3c29eadcdb7f8c20d0b1b343a394609b775aa0ae",
+      "bytes": 6514,
+      "source": "ERA Spells0.7.5 Vampirism fix2026-11-05"
     },
     "README.ru.md": {
-      "sha256": "cf6067e1e0659e96f7d81f17d6e6304df5f1debfbc5d65645d1e35de56b23fa9",
-      "bytes": 11025,
-      "source": "ERA Spells0.7.4 targeted fixes2026-11-05"
+      "sha256": "b287d57a4e49000f5ee066cd5ac138b835706ebc1eff8b54e260a689eef7098f",
+      "bytes": 11058,
+      "source": "ERA Spells0.7.5 Vampirism fix2026-11-05"
     },
     "Screens/1.png": {
       "sha256": "e96939b784d17d35dd3b120324a3b0f0652df1476c219a317e84a430ca351196",
@@ -1161,19 +1161,19 @@
       "bytes": 310005
     },
     "mod.json": {
-      "sha256": "88a3a50356de4c89b548620d79ca959f9aa70c49d616536fde4d4782928ceb3c",
+      "sha256": "df92ce544955afcad6bba5256e0095e2110bf6990d06f11fa05feec9fe2274cd",
       "bytes": 681,
-      "source": "ERA Spells0.7.4 targeted fixes2026-11-05"
+      "source": "ERA Spells0.7.5 Vampirism fix2026-11-05"
     },
     "readme.txt": {
-      "sha256": "b32e9cb53f3aa2ea4e3955e52c7433b9b969aab5b3077897c916f757118e29de",
-      "bytes": 6502,
-      "source": "ERA Spells0.7.4 targeted fixes2026-11-05"
+      "sha256": "b83d6b8a6bdafb8eb3de50dd3c29eadcdb7f8c20d0b1b343a394609b775aa0ae",
+      "bytes": 6514,
+      "source": "ERA Spells0.7.5 Vampirism fix2026-11-05"
     },
     "readmeru.txt": {
-      "sha256": "cf6067e1e0659e96f7d81f17d6e6304df5f1debfbc5d65645d1e35de56b23fa9",
-      "bytes": 11025,
-      "source": "ERA Spells0.7.4 targeted fixes2026-11-05"
+      "sha256": "b287d57a4e49000f5ee066cd5ac138b835706ebc1eff8b54e260a689eef7098f",
+      "bytes": 11058,
+      "source": "ERA Spells0.7.5 Vampirism fix2026-11-05"
     },
     "Data/Defs/twcrport.def/0_124.png": {
       "sha256": "29b19a96693b30c8151736f78b9ee16e64d05c5115d51f54700bbda48d929b11",

@@ -1,8 +1,8 @@
 {
-  "version": "0.7.4",
+  "version": "0.7.5",
   "gameplay_scope": "Current author-maintained ERA Spells; author approved Survey miniature and supplied current spellbook screenshots",
   "automated": {
-    "standalone_callback_checks": 44886,
+    "standalone_callback_checks": 45358,
     "story_callback_checks": 44132,
     "codec_state_checks": 474,
     "editor_spell_ids": [
@@ -76,10 +76,21 @@
     "live_game_test": false
   },
   "vampirism_nonstandard_ids": {
-    "production_changed": false,
+    "production_changed": true,
     "attacker_victim_combinations": 100,
-    "callback_checks_total": 45286,
+    "callback_checks_total": 45358,
     "real_TUM_test": false,
     "conditions": "Melee attacks against living targets; nonstandard creature ID alone is not rejected."
+  },
+  "vampirism_area": {
+    "primary_target_only": true,
+    "basis": "Actual primary target HP loss before original after-hit effects",
+    "native_binary_checks": 22165,
+    "bases_tested": [
+      "0x10000000",
+      "0x38000000"
+    ],
+    "original_failure_reproduced": true,
+    "live_game_retest": false
   }
 }
