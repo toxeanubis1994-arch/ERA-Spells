@@ -9,9 +9,9 @@ New combat magic for Heroes III ERA: damage spells, control, protective effects 
 - **ACM**: includes a fix for access to spell descriptions and parameters. Full Master/Grandmaster gameplay verification is pending; additional high-tier mechanics for the new spells are not included.
 - Requires **ERA/WoG and ERA Erm Framework**. Do not combine with story Toxeos or another mod replacing the same spell tables.
 
-## Latest update — 0.7.3
+## Latest update — 0.7.4
 
-Fixed the crash after Magog shots in quick battle by validating the active-stack pointer. Version 0.7.3 adds no spells and changes no balance. Shared game DLLs do not need replacement.
+Fixed summon portrait frame paths. Mobility and Survey no longer reject school mastery above expert, and rejected casts record their reason in the log. Vampirism mechanics are unchanged.
 
 ## Spells
 

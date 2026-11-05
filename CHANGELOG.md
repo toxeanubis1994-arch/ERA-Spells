@@ -1,5 +1,11 @@
 # ERA Spells — release history
 
+## 0.7.4
+
+- Fixed the missing Flame Spirit, Ice Dragon and Earth Roots portraits: six PNG frames now use ERA's Data/Defs frame-override paths. The game's creature portrait banks are preserved.
+- Mobility and Survey now use their expert record when another mod supplies a school mastery above expert, instead of silently rejecting the cast.
+- Rejected adventure casts now record the reason in ToxAdventureSpells.log (runtime, hero/mastery, mana, daily limit or required victory).
+
 ## 0.7.3
 
 - Fixed an invalid active-stack pointer access after Magog area shots, reported during quick battle (ToxeosBlizzard+0x4265).

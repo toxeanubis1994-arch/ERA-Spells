@@ -1,25 +1,25 @@
 {
-  "version": "0.7.3",
-  "status": "0.7.3: scoped Magog quick-battle active-stack pointer crash fix;0.7.2 content preserved",
+  "version": "0.7.4",
+  "status": "0.7.4: summon portrait frame paths and adventure extended mastery/logging; existing core/mechanics preserved",
   "files": {
     ".gitattributes": {
       "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992",
       "bytes": 9
     },
     "CHANGELOG.md": {
-      "sha256": "3d223283f51954f529f198e204937a9b636b999d7473e3e8d224876507e5b742",
-      "bytes": 7514,
-      "source": "ERA Spells0.7.3 Magog crash fix2026-11-03"
+      "sha256": "27a581ec990864929ad6ab090b36f3e57808ca4c0f05ef59263059ea1e1264ca",
+      "bytes": 7994,
+      "source": "ERA Spells0.7.4 targeted fixes2026-11-05"
     },
     "CHANGELOG.ru.md": {
-      "sha256": "a5714fa24744e409f4ae8832bc48ed76020349607ce60f3c80f36ede7183e02c",
-      "bytes": 12854,
-      "source": "ERA Spells0.7.3 Magog crash fix2026-11-03"
+      "sha256": "91ffc5ce1df9fdaa7e44aa0b7ad1ccbd9ddf22ccbf09ff209f8367ed17fb44c3",
+      "bytes": 13711,
+      "source": "ERA Spells0.7.4 targeted fixes2026-11-05"
     },
     "COMPATIBILITY.json": {
-      "sha256": "f8d95f61ec70f13d50a54ee33c8db931a50b5b6462bf25366e7fecb9abb70022",
-      "bytes": 1549,
-      "source": "ERA Spells0.7.3 Magog crash fix2026-11-03"
+      "sha256": "2c23e528687bdfeb1122ac5957ab4c9abd90d0127a2ebf3754c097ec480c3024",
+      "bytes": 2188,
+      "source": "ERA Spells0.7.4 targeted fixes2026-11-05"
     },
     "Data/Defs/invis.def/0_0.png": {
       "sha256": "9000b3a07d4dc036034b73b91c0873a1845e56bbaada09312823d67db0cdd3b8",
@@ -1069,8 +1069,9 @@
       "bytes": 1602560
     },
     "EraPlugins/ToxAdventureSpells.era": {
-      "sha256": "ba770ce244d0290ec2bffbfe7a0304485e1ac518a120c0854d85aa1f199f6634",
-      "bytes": 763392
+      "sha256": "b6884f6f938bc5dac96cdc4826e53bd81a885ae0e8ac4f800abd9c33b1aeae4b",
+      "bytes": 765952,
+      "source": "ERA Spells0.7.4 targeted fixes2026-11-05"
     },
     "EraPlugins/ToxNativeSpells.era": {
       "sha256": "9f7467455f55b906bbd365ce0ad282bb9b5c9775f26e617df43564bb03e0e4da",
@@ -1096,14 +1097,14 @@
       "source": "Author Screens and ranked popup corrections2026-10-24"
     },
     "README.md": {
-      "sha256": "87abb4b231e4e330a5a60c4189ada0c0561f721c18f96b70eb9ffd27145abd3a",
-      "bytes": 6500,
-      "source": "ERA Spells0.7.3 Magog crash fix2026-11-03"
+      "sha256": "b32e9cb53f3aa2ea4e3955e52c7433b9b969aab5b3077897c916f757118e29de",
+      "bytes": 6502,
+      "source": "ERA Spells0.7.4 targeted fixes2026-11-05"
     },
     "README.ru.md": {
-      "sha256": "1dbb626d43f959332d7f5fdea5539ce3d20c5dd38935fc29c36cbd640e184928",
-      "bytes": 11001,
-      "source": "ERA Spells0.7.3 Magog crash fix2026-11-03"
+      "sha256": "cf6067e1e0659e96f7d81f17d6e6304df5f1debfbc5d65645d1e35de56b23fa9",
+      "bytes": 11025,
+      "source": "ERA Spells0.7.4 targeted fixes2026-11-05"
     },
     "Screens/1.png": {
       "sha256": "e96939b784d17d35dd3b120324a3b0f0652df1476c219a317e84a430ca351196",
@@ -1160,19 +1161,49 @@
       "bytes": 310005
     },
     "mod.json": {
-      "sha256": "6f69d3fa184422e834b37969c38ea6c0126393f4bf732386f6c8376d572ddc81",
+      "sha256": "88a3a50356de4c89b548620d79ca959f9aa70c49d616536fde4d4782928ceb3c",
       "bytes": 681,
-      "source": "ERA Spells0.7.3 Magog crash fix2026-11-03"
+      "source": "ERA Spells0.7.4 targeted fixes2026-11-05"
     },
     "readme.txt": {
-      "sha256": "87abb4b231e4e330a5a60c4189ada0c0561f721c18f96b70eb9ffd27145abd3a",
-      "bytes": 6500,
-      "source": "ERA Spells0.7.3 Magog crash fix2026-11-03"
+      "sha256": "b32e9cb53f3aa2ea4e3955e52c7433b9b969aab5b3077897c916f757118e29de",
+      "bytes": 6502,
+      "source": "ERA Spells0.7.4 targeted fixes2026-11-05"
     },
     "readmeru.txt": {
-      "sha256": "1dbb626d43f959332d7f5fdea5539ce3d20c5dd38935fc29c36cbd640e184928",
-      "bytes": 11001,
-      "source": "ERA Spells0.7.3 Magog crash fix2026-11-03"
+      "sha256": "cf6067e1e0659e96f7d81f17d6e6304df5f1debfbc5d65645d1e35de56b23fa9",
+      "bytes": 11025,
+      "source": "ERA Spells0.7.4 targeted fixes2026-11-05"
+    },
+    "Data/Defs/twcrport.def/0_124.png": {
+      "sha256": "29b19a96693b30c8151736f78b9ee16e64d05c5115d51f54700bbda48d929b11",
+      "bytes": 8598,
+      "source": "ERA Spells0.7.4 targeted fixes2026-11-05"
+    },
+    "Data/Defs/twcrport.def/0_126.png": {
+      "sha256": "7a5fc6be5c852cb420e2298279c716ad504358709907a3f33a238a36005702ec",
+      "bytes": 15050,
+      "source": "ERA Spells0.7.4 targeted fixes2026-11-05"
+    },
+    "Data/Defs/twcrport.def/0_128.png": {
+      "sha256": "22ddc3ca82bd6d8bea55487a48ed30d4c506537f12d7b78a74c1476ad9195d15",
+      "bytes": 9316,
+      "source": "ERA Spells0.7.4 targeted fixes2026-11-05"
+    },
+    "Data/Defs/cprsmall.def/0_124.png": {
+      "sha256": "44f27e7df20006b9137fce92d2365b2ddc30db181aee8d1a41641ac56e2c7c62",
+      "bytes": 4266,
+      "source": "ERA Spells0.7.4 targeted fixes2026-11-05"
+    },
+    "Data/Defs/cprsmall.def/0_126.png": {
+      "sha256": "4e1c13398bd2248532ec8ddcbcb348552e17be10301e4db7341bccbb176e2724",
+      "bytes": 4266,
+      "source": "ERA Spells0.7.4 targeted fixes2026-11-05"
+    },
+    "Data/Defs/cprsmall.def/0_128.png": {
+      "sha256": "c19b4b40a947ebb9b7850dbfb34d8d5379708b26c7c8aa257e2378c5cb9abfe6",
+      "bytes": 1844,
+      "source": "ERA Spells0.7.4 targeted fixes2026-11-05"
     }
   }
 }

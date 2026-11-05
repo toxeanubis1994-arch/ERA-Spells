@@ -1,5 +1,5 @@
 {
-  "version": "0.7.3",
+  "version": "0.7.4",
   "gameplay_scope": "Current author-maintained ERA Spells; author approved Survey miniature and supplied current spellbook screenshots",
   "automated": {
     "standalone_callback_checks": 44886,
@@ -61,5 +61,25 @@
     "actual_binary_checks_per_build": 28813,
     "exact_old_crash_reproduced": true,
     "standalone_callback_checks": 44886
+  },
+  "summon_portraits": {
+    "mechanism": "ERA Data/Defs/<def>/0_<creatureID+2>.png",
+    "runtime_png_frames": 6,
+    "global_def_banks_replaced": false,
+    "live_game_test": false
+  },
+  "adventure_mastery": {
+    "above_expert": "clamp to expert record; native register unchanged",
+    "state_checks": 10834,
+    "callback_checks": 76,
+    "rejected_cast_log": "ToxAdventureSpells.log",
+    "live_game_test": false
+  },
+  "vampirism_nonstandard_ids": {
+    "production_changed": false,
+    "attacker_victim_combinations": 100,
+    "callback_checks_total": 45286,
+    "real_TUM_test": false,
+    "conditions": "Melee attacks against living targets; nonstandard creature ID alone is not rejected."
   }
 }
