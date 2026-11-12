@@ -1,0 +1,40 @@
+													
+													
+Reinforcements	#	934	-1	-1	549	395	50	-1	garrison.pcx	-1
+	D	44	233	52	83	61	spellscr.def	104	16	
+	T	45	20	21	509	30		Bigfont.fnt	2	0	1	8	
+OK	B	30721	88	314	64	32	icn6432.def	1	
+Cancel	B	30722	399	314	64	32	iok6432.def	28	
+Portrait Of Hero Owner	P	50	28	223	58	64	CBONN1A3.PCX	2048	
+Portrait Of Hero in the town garrison	P	51	28	127	58	64	CBONN1A3.PCX	2048	
+Garrison Army	D	1	92	127	58	64	TwCrPort.def	0	16	
+Garrison Army: Number	T	2	92	173	58	20		verd10b.fnt	1	0	10	8	
+Garrison Army	D	4	154	127	58	64	TwCrPort.def	0	16	
+Garrison Army: Number	T	5	154	173	58	20		verd10b.fnt	1	0	10	8	
+Garrison Army	D	7	216	127	58	64	TwCrPort.def	0	16	
+Garrison Army: Number	T	8	216	173	58	20		verd10b.fnt	1	0	10	8	
+Garrison Army	D	10	278	127	58	64	TwCrPort.def	0	16	
+Garrison Army: Number	T	11	278	173	58	20		verd10b.fnt	1	0	10	8	
+Garrison Army	D	13	340	127	58	64	TwCrPort.def	0	16	
+Garrison Army: Number	T	14	340	173	58	20		verd10b.fnt	1	0	10	8	
+Garrison Army	D	16	402	127	58	64	TwCrPort.def	0	16	
+Garrison Army: Number	T	17	402	173	58	20		verd10b.fnt	1	0	10	8	
+Garrison Army	D	19	464	127	58	64	TwCrPort.def	0	16	
+Garrison Army: Number	T	20	464	173	58	20		verd10b.fnt	1	0	10	8	
+Garrison Town Portrait	Def	52	28	127	58	64	itpt.def	0	16	
+Hero Army	D	22	92	223	58	64	TwCrPort.def	0	16	
+Hero Army: Number	T	23	92	269	58	20		verd10b.fnt	1	0	10	8	
+Hero Army	D	25	154	223	58	64	TwCrPort.def	0	16	
+Hero Army: Number	T	26	154	269	58	20		verd10b.fnt	1	0	10	8	
+Hero Army	D	28	216	223	58	64	TwCrPort.def	0	16	
+Hero Army: Number	T	29	216	269	58	20		verd10b.fnt	1	0	10	8	
+Hero Army	D	31	278	223	58	64	TwCrPort.def	0	16	
+Hero Army: Number	T	32	278	269	58	20		verd10b.fnt	1	0	10	8	
+Hero Army	D	34	340	223	58	64	TwCrPort.def	0	16	
+Hero Army: Number	T	35	340	269	58	20		verd10b.fnt	1	0	10	8	
+Hero Army	D	37	402	223	58	64	TwCrPort.def	0	16	
+Hero Army: Number	T	38	402	269	58	20		verd10b.fnt	1	0	10	8	
+Hero Army	D	40	464	223	58	64	TwCrPort.def	0	16	
+Hero Army: Number	T	41	464	269	58	20		verd10b.fnt	1	0	10	8	
+Help	T	55	20	360	509	20		verd10b.fnt	1	0	1	8	
+	#

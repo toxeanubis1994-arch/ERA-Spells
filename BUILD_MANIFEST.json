@@ -1,25 +1,25 @@
 {
-  "version": "0.7.5",
-  "status": "0.7.5: fixed primary-target Vampirism healing for area melee attacks",
+  "version": "0.7.6",
+  "status": "ERA Spells 0.7.6 Reinforcements integration",
   "files": {
     ".gitattributes": {
       "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992",
       "bytes": 9
     },
     "CHANGELOG.md": {
-      "sha256": "d39065320e5767a360ba6e60c8eebb1bf643144bde3b25bb63905970283e682b",
-      "bytes": 8159,
-      "source": "ERA Spells0.7.5 Vampirism fix2026-11-05"
+      "sha256": "d9e3fe6a1f13e51826cca0a8145a9e16311c56ad3f9d4f362757be9c70228212",
+      "bytes": 8517,
+      "source": "ERA Spells 0.7.6 Reinforcements integration"
     },
     "CHANGELOG.ru.md": {
-      "sha256": "4ea58dd6539bc0d4d4e419e9f3c7a4144490f73a4dcb72d50f5c648623c01d6f",
-      "bytes": 14017,
-      "source": "ERA Spells0.7.5 Vampirism fix2026-11-05"
+      "sha256": "2f97e4167168d13b459b9abe2d1298da314bcf56b387e55ced282b59d9cc0c64",
+      "bytes": 14638,
+      "source": "ERA Spells 0.7.6 Reinforcements integration"
     },
     "COMPATIBILITY.json": {
-      "sha256": "f273d1af0e64ab8b43bfe27fb616df21f7f1791039a6fb7f9829a8d63605af97",
-      "bytes": 2501,
-      "source": "ERA Spells0.7.5 Vampirism fix2026-11-05"
+      "sha256": "217cd2a037bb695ec97bb21394163f77b917274aafdb8340560b4d4f4a734337",
+      "bytes": 2780,
+      "source": "ERA Spells 0.7.6 Reinforcements integration"
     },
     "Data/Defs/invis.def/0_0.png": {
       "sha256": "9000b3a07d4dc036034b73b91c0873a1845e56bbaada09312823d67db0cdd3b8",
@@ -550,9 +550,9 @@
       "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/ToxeosNative.pac": {
-      "sha256": "e04bee4d6ce5c760405e827eb26a2c12bdbe0fc9fd82562621a28b507d780b35",
-      "bytes": 3526788,
-      "source": "ERA Spells0.7.2 update2026-10-30"
+      "sha256": "9611d139e89488277ca324cbf8eb3d994d2e9c3927e02a1b640cff74de21851c",
+      "bytes": 2606454,
+      "source": "ERA Spells 0.7.6 Reinforcements integration"
     },
     "Data/ToxeosNative.snd": {
       "sha256": "c962cc0f7973063e65ddf1d54531b82c8d97bbf9b367c49e59e217310eb809e9",
@@ -1049,8 +1049,9 @@
       "source": "ERA Spells0.7.2 update2026-10-30"
     },
     "Data/s/zz_tox_gem_spell_popup.erm": {
-      "sha256": "166754489c67d9a54ef86f5902814e5f7e2c9ec7f6561206c390b635ef31a993",
-      "bytes": 1836
+      "sha256": "fcc0457cc1d7ad323488b12537026967d222ae20ec67aa2d0c61e166063b3076",
+      "bytes": 1836,
+      "source": "ERA Spells 0.7.6 Reinforcements integration"
     },
     "Developers/SpellIntegration/README.md": {
       "sha256": "12b416984120f03de84c9a229d6b65486f6603e2fda1f561ceb87595e358912e",
@@ -1065,13 +1066,14 @@
       "bytes": 549
     },
     "EraEditor/ToxEditor.dll": {
-      "sha256": "b9aebe8b3906b2762619a146e3f5f5d2f4cb261babf3720143c6c37e174dc8e8",
-      "bytes": 1602560
+      "sha256": "91f5ef36f685752cc14c13bdbdebc19152cfdbac5b0e40ce34ed1e655016c69e",
+      "bytes": 1602560,
+      "source": "ERA Spells 0.7.6 Reinforcements integration"
     },
     "EraPlugins/ToxAdventureSpells.era": {
-      "sha256": "b6884f6f938bc5dac96cdc4826e53bd81a885ae0e8ac4f800abd9c33b1aeae4b",
-      "bytes": 765952,
-      "source": "ERA Spells0.7.4 targeted fixes2026-11-05"
+      "sha256": "8c0b2ec2b76bf33b985723496896890f7d588094cc60f5ed8bee02f6afb5ea3b",
+      "bytes": 774656,
+      "source": "ERA Spells 0.7.6 Reinforcements integration"
     },
     "EraPlugins/ToxNativeSpells.era": {
       "sha256": "9f7467455f55b906bbd365ce0ad282bb9b5c9775f26e617df43564bb03e0e4da",
@@ -1082,29 +1084,29 @@
       "bytes": 1491968
     },
     "EraPlugins/ToxeosBlizzard.era": {
-      "sha256": "8e1745b89e4b6301e4768166065237ef7dc89aaeadf729d4b170b11f7df16807",
-      "bytes": 309760,
-      "source": "ERA Spells0.7.5 Vampirism fix2026-11-05"
+      "sha256": "4eb0392123615caabe96367f4f52fd6515e010fcfc0734ab4b1c050d78fccd24",
+      "bytes": 316416,
+      "source": "ERA Spells 0.7.6 Reinforcements integration"
     },
     "Lang/ru/toxeos_native.json": {
-      "sha256": "55755dc740fc0cd6041bb79572d83a462fa30d51ad76b7553e8a13340007e7db",
-      "bytes": 22192,
-      "source": "Author Screens and ranked popup corrections2026-10-24"
+      "sha256": "42379bfd55fb33ab017ea1186f57388aefc094612092983c34adecc868a29d0f",
+      "bytes": 24808,
+      "source": "ERA Spells 0.7.6 Reinforcements integration"
     },
     "Lang/toxeos_native.json": {
-      "sha256": "2b579bd9545189acd3f603eef4b6175cdcad8fff99fbf610f892872622df9dea",
-      "bytes": 13084,
-      "source": "Author Screens and ranked popup corrections2026-10-24"
+      "sha256": "8966c30ca9ac97960c629b1cb34cf34f96d3df4770f4b4db8d88a698105f6543",
+      "bytes": 14635,
+      "source": "ERA Spells 0.7.6 Reinforcements integration"
     },
     "README.md": {
-      "sha256": "b83d6b8a6bdafb8eb3de50dd3c29eadcdb7f8c20d0b1b343a394609b775aa0ae",
-      "bytes": 6514,
-      "source": "ERA Spells0.7.5 Vampirism fix2026-11-05"
+      "sha256": "18a451f8f481bcd075ff5920061102b1791ce2d8d9f8dcde7450bd468a58b359",
+      "bytes": 6885,
+      "source": "ERA Spells 0.7.6 Reinforcements integration"
     },
     "README.ru.md": {
-      "sha256": "b287d57a4e49000f5ee066cd5ac138b835706ebc1eff8b54e260a689eef7098f",
-      "bytes": 11058,
-      "source": "ERA Spells0.7.5 Vampirism fix2026-11-05"
+      "sha256": "e71c81195809d36e64df2047c218aa49a2b8c096a1aaaa9512f3927e9feade5b",
+      "bytes": 11598,
+      "source": "ERA Spells 0.7.6 Reinforcements integration"
     },
     "Screens/1.png": {
       "sha256": "e96939b784d17d35dd3b120324a3b0f0652df1476c219a317e84a430ca351196",
@@ -1137,20 +1139,23 @@
       "source": "Author Screens and ranked popup corrections2026-10-24"
     },
     "ToxData/editor_spells.ru.tsv": {
-      "sha256": "e2a3da006fd8c069dc18c1800cd5506ae3a71ebf5c301f7602908481250b6f1e",
-      "bytes": 800
+      "sha256": "ad690cc60e549c51cc6f3b1cf1195c870a6ae4f842fea0112863a6a7790d5615",
+      "bytes": 824,
+      "source": "ERA Spells 0.7.6 Reinforcements integration"
     },
     "ToxData/editor_spells.tsv": {
-      "sha256": "24106af06b164224f08eeb3016035ae6c13f090842e64f441ce1838f6b42b389",
-      "bytes": 570
+      "sha256": "839cf5c40b217f1a11468f554c5fe9555fca214d779cbbcfae75e027339b732d",
+      "bytes": 594,
+      "source": "ERA Spells 0.7.6 Reinforcements integration"
     },
     "ToxData/native_spells.ini": {
       "sha256": "558ffa55221cb4d698ec26696a6eb6dbfe2d22664f70b31198a07a5655acc503",
       "bytes": 72
     },
     "ToxData/spell_generation.tsv": {
-      "sha256": "7de2018996508ac6ba8c515ed81eb7b4a7d2b8a1acefad478d277dc4dafa47ba",
-      "bytes": 1414
+      "sha256": "43833c306b5d854b2661b465cdfe582fa89dae78d5a7fb0d26485fbacc7caa99",
+      "bytes": 1448,
+      "source": "ERA Spells 0.7.6 Reinforcements integration"
     },
     "era-spells.ico": {
       "sha256": "57163c90e9599debe8b5219142ff56d26c5f7c7fe23bf54ac9bb00a8c87b8a21",
@@ -1161,19 +1166,19 @@
       "bytes": 310005
     },
     "mod.json": {
-      "sha256": "df92ce544955afcad6bba5256e0095e2110bf6990d06f11fa05feec9fe2274cd",
+      "sha256": "a9c0ca94cb43412221e13798392616e9e8eed37683ab429901cd9d50f1e50a8f",
       "bytes": 681,
-      "source": "ERA Spells0.7.5 Vampirism fix2026-11-05"
+      "source": "ERA Spells 0.7.6 Reinforcements integration"
     },
     "readme.txt": {
-      "sha256": "b83d6b8a6bdafb8eb3de50dd3c29eadcdb7f8c20d0b1b343a394609b775aa0ae",
-      "bytes": 6514,
-      "source": "ERA Spells0.7.5 Vampirism fix2026-11-05"
+      "sha256": "18a451f8f481bcd075ff5920061102b1791ce2d8d9f8dcde7450bd468a58b359",
+      "bytes": 6885,
+      "source": "ERA Spells 0.7.6 Reinforcements integration"
     },
     "readmeru.txt": {
-      "sha256": "b287d57a4e49000f5ee066cd5ac138b835706ebc1eff8b54e260a689eef7098f",
-      "bytes": 11058,
-      "source": "ERA Spells0.7.5 Vampirism fix2026-11-05"
+      "sha256": "e71c81195809d36e64df2047c218aa49a2b8c096a1aaaa9512f3927e9feade5b",
+      "bytes": 11598,
+      "source": "ERA Spells 0.7.6 Reinforcements integration"
     },
     "Data/Defs/twcrport.def/0_124.png": {
       "sha256": "29b19a96693b30c8151736f78b9ee16e64d05c5115d51f54700bbda48d929b11",
@@ -1204,6 +1209,87 @@
       "sha256": "c19b4b40a947ebb9b7850dbfb34d8d5379708b26c7c8aa257e2378c5cb9abfe6",
       "bytes": 1844,
       "source": "ERA Spells0.7.4 targeted fixes2026-11-05"
+    },
+    "Data/s/zz_tox_reinforcements.erm": {
+      "sha256": "bc7386a523edecf6383ae64485d5e0a33c09c0d20dc597d4c1585f7992cd2920",
+      "bytes": 5066,
+      "source": "ERA Spells 0.7.6 Reinforcements integration"
+    },
+    "Data/tox_reinf.txt": {
+      "sha256": "9c2c8fef79f01a529595963730fd06cf87fab74a3f99c0c54573b1dc6f46aeb7",
+      "bytes": 2090,
+      "source": "ERA Spells 0.7.6 Reinforcements integration"
+    },
+    "Licenses/Reinforcements-Spell.txt": {
+      "sha256": "1bea131bfd510a3f44f3bc301964748533ee0925af56d6cfc2bd5c208afda1bc",
+      "bytes": 1069,
+      "source": "ERA Spells 0.7.6 Reinforcements integration"
+    },
+    "Data/Defs/spells.def/0_104.png": {
+      "sha256": "7c0fad590f5092a336617993a96f597467c31e36e00929d7b51f28db5dd8e251",
+      "bytes": 5912,
+      "source": "ERA Spells 0.7.6 Reinforcements integration"
+    },
+    "Data/pcx/TxReB104.png": {
+      "sha256": "7c0fad590f5092a336617993a96f597467c31e36e00929d7b51f28db5dd8e251",
+      "bytes": 5912,
+      "source": "ERA Spells 0.7.6 Reinforcements integration"
+    },
+    "Data/Defs/spellscr.def/0_104.png": {
+      "sha256": "61f499c24df0d05cad563ea2a1a07fb8926f985097065b7d75b6bc1fd95d9be0",
+      "bytes": 8815,
+      "source": "ERA Spells 0.7.6 Reinforcements integration"
+    },
+    "Data/pcx/TxReS104.png": {
+      "sha256": "61f499c24df0d05cad563ea2a1a07fb8926f985097065b7d75b6bc1fd95d9be0",
+      "bytes": 8815,
+      "source": "ERA Spells 0.7.6 Reinforcements integration"
+    },
+    "Data/Defs/spellbon.def/0_104.png": {
+      "sha256": "06c26202a789d5e4c9bb9fca6a31b4967eb2ba973b9174094f142b7dfc3b0504",
+      "bytes": 7428,
+      "source": "ERA Spells 0.7.6 Reinforcements integration"
+    },
+    "Data/pcx/TxReN104.png": {
+      "sha256": "06c26202a789d5e4c9bb9fca6a31b4967eb2ba973b9174094f142b7dfc3b0504",
+      "bytes": 7428,
+      "source": "ERA Spells 0.7.6 Reinforcements integration"
+    },
+    "Data/Defs/spellint.def/0_105.png": {
+      "sha256": "32047becbe726324711e5d40f9cd9fc4041f8ef84ebd6793eb8ce818160e34e6",
+      "bytes": 3935,
+      "source": "ERA Spells 0.7.6 Reinforcements integration"
+    },
+    "Data/pcx/TxReI104.png": {
+      "sha256": "32047becbe726324711e5d40f9cd9fc4041f8ef84ebd6793eb8ce818160e34e6",
+      "bytes": 3935,
+      "source": "ERA Spells 0.7.6 Reinforcements integration"
     }
-  }
+  },
+  "spell_ids": [
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104
+  ]
 }

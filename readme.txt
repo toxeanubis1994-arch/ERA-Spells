@@ -60,6 +60,7 @@ Fixed Vampirism healing for circular and cone-shaped melee attacks. Healing is c
 - **Strength** — A 3-round Water shield absorbing 17 × Spell Power + 10/10/20/45 damage.
 
 - **Vampirism** — Drains 15/20/25/30% of damage dealt to the primary living target in melee; maximum Health is reduced by 25/20/15/10%. Cure removes the effect. Healing plays the native Vampire Lord life-drain effect.
+- **Reinforcements** — a level 3 Fire adventure spell. It transfers troops from the nearest owned town, or from a chosen owned town with Fire Magic. Each hero can cast it once per day for 20 / 18 / 16 / 14 mana.
 
 ## Acquisition and Map Editor
 
@@ -94,6 +95,8 @@ Use the read-only [spell-restrictions API/SDK](Developers/SpellIntegration/READM
 Mod author: **Toxeos**.
 
 Graphics assistance: **Dalion** and **Toriko**.
+
+Reinforcements Spell: **daemon_n** (implementation), **ShimmY** and **Master of puppets** (idea), **MoonHeart** (Chinese localization of the original mod).
 
 You are welcome to modify the mod and share your own versions.
 

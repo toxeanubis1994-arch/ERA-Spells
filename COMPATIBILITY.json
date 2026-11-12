@@ -1,8 +1,8 @@
 {
-  "version": "0.7.5",
+  "version": "0.7.6",
   "gameplay_scope": "Current author-maintained ERA Spells; author approved Survey miniature and supplied current spellbook screenshots",
   "automated": {
-    "standalone_callback_checks": 45358,
+    "standalone_callback_checks": 45381,
     "story_callback_checks": 44132,
     "codec_state_checks": 474,
     "editor_spell_ids": [
@@ -28,9 +28,11 @@
       100,
       101,
       102,
-      103
+      103,
+      104
     ],
-    "translation_keys": 129
+    "translation_keys": 129,
+    "release_core_area_and_breath_checks": 21577
   },
   "pending": [
     "New Vampire Lord life-drain presentation in game",
@@ -92,5 +94,18 @@
     ],
     "original_failure_reproduced": true,
     "live_game_retest": false
+  },
+  "reinforcements": {
+    "spell_id": 104,
+    "guild_percent": 6,
+    "shrine_weight": 40,
+    "mana": [
+      20,
+      18,
+      16,
+      14
+    ],
+    "casts_per_hero_per_day": 1,
+    "live_game_test": false
   }
 }

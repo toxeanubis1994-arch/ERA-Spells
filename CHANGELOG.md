@@ -1,5 +1,10 @@
 # ERA Spells — release history
 
+## 0.7.6
+
+- Added **Reinforcements**, a level 3 Fire adventure spell. It transfers troops from the nearest owned town, or from a chosen owned town with Fire Magic. Each hero can cast it once per day for 20 / 18 / 16 / 14 mana.
+- Verified the Vampirism fixes for area melee attacks and dragon breath. Healing uses only the health lost by the primary target.
+
 ## 0.7.5
 
 - Fixed Vampirism healing for circular and cone-shaped melee attacks. Healing is calculated from the health actually lost by the selected primary target.

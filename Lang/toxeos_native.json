@@ -134,6 +134,22 @@
     "Adventure": {
       "NeedVictory": "The hero must win a battle before casting Mobility again today.",
       "DailyLimit": "This hero has used all casts of this spell for today."
+    },
+    "Reinforcements": {
+      "Name": "Reinforcements",
+      "SelectTown": "Choose a town for reinforcements.",
+      "Garrison": "Garrison of @townName@",
+      "ChooseStack": "Select a stack in the town garrison.",
+      "ChooseDestination": "Select an empty slot or a matching stack in the hero's army.",
+      "Limit": "This hero has reached the daily limit for Reinforcements.",
+      "Cost": "The hero needs more mana or movement points.",
+      "NoTown": "This hero has no town from which to call reinforcements.",
+      "LastStack": "The garrison hero must keep at least one stack.",
+      "WrongTarget": "Choose an empty slot or a stack of the same creature type.",
+      "Description0": "{Reinforcements}\n\nTransfers troops from the garrison of the closest owned town to the hero on the adventure map.\n\nCosts 300 movement points. Each hero can cast this spell once per day.",
+      "Description1": "{Basic Reinforcements}\n\nTransfers troops from the garrison of a chosen owned town to the hero on the adventure map.\n\nCosts 300 movement points. Each hero can cast this spell once per day.",
+      "Description2": "{Advanced Reinforcements}\n\nTransfers troops from the garrison of a chosen owned town to the hero on the adventure map.\n\nCosts 300 movement points. Each hero can cast this spell once per day.",
+      "Description3": "{Expert Reinforcements}\n\nTransfers troops from the garrison of a chosen owned town to the hero on the adventure map.\n\nCosts 200 movement points. Each hero can cast this spell once per day."
     }
   }
 }

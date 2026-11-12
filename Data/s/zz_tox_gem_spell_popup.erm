@@ -4,7 +4,7 @@ ZVSE2
 ; event after that early return, independently of script loading order.
 ; All text, pictures and research hints still come from the live tables/GEM.
 !#DC(TOX_GEM_POPUP_FIRST) = 100;
-!#DC(TOX_GEM_POPUP_LAST) = 103;
+!#DC(TOX_GEM_POPUP_LAST) = 104;
 !#DC(TOX_GEM_POPUP_GUILD_DLG) = 506;
 
 !?FU(srm_spell_description_and_picture_message_Quit);
