@@ -1,5 +1,9 @@
 # ERA Spells — release history
 
+## 0.8
+
+- Updated the release and mod browser metadata to version 0.8.
+
 ## 0.7.6
 
 - Added **Reinforcements**, a level 3 Fire adventure spell. It transfers troops from the nearest owned town, or from a chosen owned town with Fire Magic. Each hero can cast it once per day for 20 / 18 / 16 / 14 mana.

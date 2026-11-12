@@ -1,5 +1,5 @@
 {
-  "version": "0.7.6",
+  "version": "0.8",
   "gameplay_scope": "Current author-maintained ERA Spells; author approved Survey miniature and supplied current spellbook screenshots",
   "automated": {
     "standalone_callback_checks": 45381,

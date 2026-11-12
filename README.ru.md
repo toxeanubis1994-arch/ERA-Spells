@@ -100,5 +100,5 @@ Reinforcements Spell — реализация **daemon_n**, идея **ShimmY** 
 
 Вы можете изменять мод и делиться своими версиями.
 
-[История версий](https://github.com/toxeanubis1994-arch/ERA-Spells/blob/main/CHANGELOG.ru.md) · [Скачать 0.7.1](https://github.com/toxeanubis1994-arch/ERA-Spells/releases/tag/v0.7.1)
+[История версий](https://github.com/toxeanubis1994-arch/ERA-Spells/blob/main/CHANGELOG.ru.md) · [Последний релиз](https://github.com/toxeanubis1994-arch/ERA-Spells/releases/latest)
 

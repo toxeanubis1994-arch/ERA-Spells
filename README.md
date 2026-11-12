@@ -100,5 +100,5 @@ Reinforcements Spell: **daemon_n** (implementation), **ShimmY** and **Master of 
 
 You are welcome to modify the mod and share your own versions.
 
-[Release history](https://github.com/toxeanubis1994-arch/ERA-Spells/blob/main/CHANGELOG.md) · [Download 0.7.1](https://github.com/toxeanubis1994-arch/ERA-Spells/releases/tag/v0.7.1)
+[Release history](https://github.com/toxeanubis1994-arch/ERA-Spells/blob/main/CHANGELOG.md) · [Latest release](https://github.com/toxeanubis1994-arch/ERA-Spells/releases/latest)
 
