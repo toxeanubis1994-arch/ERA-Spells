@@ -1,5 +1,10 @@
 # ERA Spells — release history
 
+## 0.8.1
+
+- Fixed new spells missing from Mage Guild generation and GEM research after Reinforcements was added.
+- Moved the Reinforcements selection hint inside the bottom status bar.
+
 ## 0.8
 
 - Updated the release and mod browser metadata to version 0.8.

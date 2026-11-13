@@ -1,25 +1,25 @@
 {
-  "version": "0.8",
-  "status": "ERA Spells 0.8 release metadata",
+  "version": "0.8.1",
+  "status": "ERA Spells 0.8.1 generation and Reinforcements footer fix",
   "files": {
     ".gitattributes": {
       "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992",
       "bytes": 9
     },
     "CHANGELOG.md": {
-      "sha256": "498a327fdf65f6b4fa5a544b7b318bdf0d6006b588eebb0a5e59b89f3acf9b76",
-      "bytes": 8589,
-      "source": "ERA Spells 0.8 release metadata"
+      "sha256": "e8d44cde4a96e3e577bb50dc645de54e9daaf1203f974d70dfb89f11126ad778",
+      "bytes": 8775,
+      "source": "ERA Spells 0.8.1"
     },
     "CHANGELOG.ru.md": {
-      "sha256": "aa2e41372d89779b22450527c88ba84be5f7455e7df2480f094c754a899e8e44",
-      "bytes": 14756,
-      "source": "ERA Spells 0.8 release metadata"
+      "sha256": "16c8d09d234dd9dcb4d3049c4e2e13d462075d3c660eaf5b62131cf51ac79afc",
+      "bytes": 15089,
+      "source": "ERA Spells 0.8.1"
     },
     "COMPATIBILITY.json": {
-      "sha256": "92d51f6845ef3f2b49d811e8a717b1d7e5a6aadd03f6e2d6f5be105092773994",
-      "bytes": 2778,
-      "source": "ERA Spells 0.8 release metadata"
+      "sha256": "02d6ed87d07e1f47ec93d7c0e7635f0b540781b73705e5b37049283a94ff87e8",
+      "bytes": 2970,
+      "source": "ERA Spells 0.8.1"
     },
     "Data/Defs/invis.def/0_0.png": {
       "sha256": "9000b3a07d4dc036034b73b91c0873a1845e56bbaada09312823d67db0cdd3b8",
@@ -1080,8 +1080,9 @@
       "bytes": 826368
     },
     "EraPlugins/ToxSpellTransport.era": {
-      "sha256": "8da14d2adf3a810d4c70eb7fb19a8c9efea0ff0a014eaa366d792fc5d0fe4976",
-      "bytes": 1491968
+      "sha256": "d566fef8f2be943e1ea384e271ca8c70ca35b445628aa9454a4b681bbba6dc89",
+      "bytes": 1491456,
+      "source": "ERA Spells 0.8.1"
     },
     "EraPlugins/ToxeosBlizzard.era": {
       "sha256": "4eb0392123615caabe96367f4f52fd6515e010fcfc0734ab4b1c050d78fccd24",
@@ -1099,14 +1100,14 @@
       "source": "ERA Spells 0.7.6 Reinforcements integration"
     },
     "README.md": {
-      "sha256": "960650d256cda21ae0fcb07c01ae84f89c1a6f0df6c072555df8e8ff4e967f0a",
-      "bytes": 7099,
-      "source": "ERA Spells 0.8 documentation correction"
+      "sha256": "e7fce139ad8560f268ab77506f36f12ab84be08efe90061e4e0dcf42b8006441",
+      "bytes": 7416,
+      "source": "ERA Spells 0.8.1"
     },
     "README.ru.md": {
-      "sha256": "aa283c89944b9a51c82bcbd83198e048f62777c57e202e3f05062198dd1d6a64",
-      "bytes": 11901,
-      "source": "ERA Spells 0.8 documentation correction"
+      "sha256": "2b77eb4997215ae23e98ed7758457b0fb1b98521ac4d029804960a640de94ee9",
+      "bytes": 12495,
+      "source": "ERA Spells 0.8.1"
     },
     "Screens/1.png": {
       "sha256": "e96939b784d17d35dd3b120324a3b0f0652df1476c219a317e84a430ca351196",
@@ -1166,19 +1167,19 @@
       "bytes": 310005
     },
     "mod.json": {
-      "sha256": "4451a4aa761c4a0a6fa0a3203ba76e486b856d33a6d698715ae09dd4adabc7b9",
-      "bytes": 679,
-      "source": "ERA Spells 0.8 release metadata"
+      "sha256": "f105ca9492aeb40999513e97f75071e371ef0c426fb6b100f1ccad829697260f",
+      "bytes": 681,
+      "source": "ERA Spells 0.8.1"
     },
     "readme.txt": {
-      "sha256": "960650d256cda21ae0fcb07c01ae84f89c1a6f0df6c072555df8e8ff4e967f0a",
-      "bytes": 7099,
-      "source": "ERA Spells 0.8 documentation correction"
+      "sha256": "e7fce139ad8560f268ab77506f36f12ab84be08efe90061e4e0dcf42b8006441",
+      "bytes": 7416,
+      "source": "ERA Spells 0.8.1"
     },
     "readmeru.txt": {
-      "sha256": "aa283c89944b9a51c82bcbd83198e048f62777c57e202e3f05062198dd1d6a64",
-      "bytes": 11901,
-      "source": "ERA Spells 0.8 documentation correction"
+      "sha256": "2b77eb4997215ae23e98ed7758457b0fb1b98521ac4d029804960a640de94ee9",
+      "bytes": 12495,
+      "source": "ERA Spells 0.8.1"
     },
     "Data/Defs/twcrport.def/0_124.png": {
       "sha256": "29b19a96693b30c8151736f78b9ee16e64d05c5115d51f54700bbda48d929b11",
@@ -1216,9 +1217,9 @@
       "source": "ERA Spells 0.7.6 Reinforcements integration"
     },
     "Data/tox_reinf.txt": {
-      "sha256": "9c2c8fef79f01a529595963730fd06cf87fab74a3f99c0c54573b1dc6f46aeb7",
+      "sha256": "1bf58dce11e8e2051bb16e418c6e366707b16bea952d03576bffb7aeb44edef5",
       "bytes": 2090,
-      "source": "ERA Spells 0.7.6 Reinforcements integration"
+      "source": "ERA Spells 0.8.1"
     },
     "Licenses/Reinforcements-Spell.txt": {
       "sha256": "1bea131bfd510a3f44f3bc301964748533ee0925af56d6cfc2bd5c208afda1bc",

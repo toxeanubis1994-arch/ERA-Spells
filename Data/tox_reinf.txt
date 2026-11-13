@@ -36,5 +36,5 @@ Hero Army	D	37	402	223	58	64	TwCrPort.def	0	16
 Hero Army: Number	T	38	402	269	58	20		verd10b.fnt	1	0	10	8	
 Hero Army	D	40	464	223	58	64	TwCrPort.def	0	16	
 Hero Army: Number	T	41	464	269	58	20		verd10b.fnt	1	0	10	8	
-Help	T	55	20	360	509	20		verd10b.fnt	1	0	1	8	
+Help	T	55	20	372	509	18		verd10b.fnt	1	0	1	8	
 	#

@@ -2,11 +2,16 @@
 
 New combat magic for Heroes III ERA: damage spells, control, protective effects and summons. Standalone mod by Toxeos, with English and Russian support and Map Editor integration.
 
-## Latest release — 0.8
+## Latest release — 0.8.1
+
+- Fixed new spells missing from Mage Guild generation and GEM research after Reinforcements was added.
+- Moved the Reinforcements selection hint inside the bottom status bar.
+
+To check generation, fully restart the game and start a new map: guilds and GEM research lists already stored in saves are not rebuilt.
 
 **Reinforcements** is a level 3 Fire spell for the adventure map. It transfers troops from the nearest town you own. Basic Fire Magic or higher lets you choose any town you own. Each hero can cast it once per day for 20 / 18 / 16 / 14 mana.
 
-Reinforcements debuted in [0.7.6](https://github.com/toxeanubis1994-arch/ERA-Spells/releases/tag/v0.7.6) and is included in 0.8.
+Reinforcements debuted in [0.7.6](https://github.com/toxeanubis1994-arch/ERA-Spells/releases/tag/v0.7.6) and is included in 0.8.1.
 
 ## Compatibility
 

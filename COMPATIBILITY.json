@@ -1,10 +1,10 @@
 {
-  "version": "0.8",
+  "version": "0.8.1",
   "gameplay_scope": "Current author-maintained ERA Spells; author approved Survey miniature and supplied current spellbook screenshots",
   "automated": {
     "standalone_callback_checks": 45381,
     "story_callback_checks": 44132,
-    "codec_state_checks": 474,
+    "codec_state_checks": 477,
     "editor_spell_ids": [
       81,
       82,
@@ -32,13 +32,15 @@
       104
     ],
     "translation_keys": 129,
-    "release_core_area_and_breath_checks": 21577
+    "release_core_area_and_breath_checks": 21577,
+    "generation_catalog_105": "Production TSV: 9 town types, 100 rolls per town, shrine ID 104, GEM count/chances"
   },
   "pending": [
     "New Vampire Lord life-drain presentation in game",
     "All battle-replay paths",
     "All campaign/mod combinations",
-    "Full ACM Master/Grandmaster gameplay"
+    "Full ACM Master/Grandmaster gameplay",
+    "0.8.1 live new-game guild/GEM and Reinforcements footer acceptance"
   ],
   "summon_slots": [
     122,
