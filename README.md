@@ -2,16 +2,18 @@
 
 New combat magic for Heroes III ERA: damage spells, control, protective effects and summons. Standalone mod by Toxeos, with English and Russian support and Map Editor integration.
 
+## Latest release — 0.8
+
+**Reinforcements** is a level 3 Fire spell for the adventure map. It transfers troops from the nearest town you own. Basic Fire Magic or higher lets you choose any town you own. Each hero can cast it once per day for 20 / 18 / 16 / 14 mana.
+
+Reinforcements debuted in [0.7.6](https://github.com/toxeanubis1994-arch/ERA-Spells/releases/tag/v0.7.6) and is included in 0.8.
+
 ## Compatibility
 
 - **GEM**: uses the native spell catalog; no changes to GEM files are required. Research lists already stored in older saves are not rebuilt.
 - **JS / InstantAnim, TUM / Amethyst**: the 0.6 Beta build was checked in Complete with these mods enabled; Heavenly Shield and custom effect icons work in that test. Amethyst and TUM are optional.
 - **ACM**: includes a fix for access to spell descriptions and parameters. Full Master/Grandmaster gameplay verification is pending; additional high-tier mechanics for the new spells are not included.
 - Requires **ERA/WoG and ERA Erm Framework**. Do not combine with story Toxeos or another mod replacing the same spell tables.
-
-## Latest update — 0.7.5
-
-Fixed Vampirism healing for circular and cone-shaped melee attacks. Healing is calculated from the health actually lost by the selected primary target.
 
 ## Spells
 
